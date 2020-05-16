@@ -29,8 +29,8 @@ var categoryAllText = "Todas"; //text for all category select option
 var questionTotalDisplay = "[NUMBER]/[TOTAL]:"; //current question and total question display
 var totalQuestions = 0; //set 0 for all questions, set more than 0 to limit total questions
 
-var enableRandomQuestion = true; //enable question in random sequence
-var enableRandomAnswer = true; //enable answer in random sequence
+var enableRandomQuestion = false; //enable question in random sequence
+var enableRandomAnswer = false; //enable answer in random sequence
 var enableRevealAnswer = true; //enable reveal answer
 var enableExplanation = true; //enable show explanation
 
@@ -98,7 +98,7 @@ var inputOffsetTop = -15;
 var dragRevertSpeed = 0.5; //revert speed
 var dragListEnable = false; //enable drag answer list style
 var dragDroppedAnswerAgain = true; //enable drag answer again after dropped
-var dragRandomAnswer = true; //enable drag answer display in random sequence
+var dragRandomAnswer = false; //enable drag answer display in random sequence
 var dropBorder = "#fff";
 var dropStroke = "1px";
 var dropBackground = "";
