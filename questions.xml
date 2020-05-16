@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><questions>
 	<category>
-		<thumb name="Drag and Drop">assets/item_thumb_0.svg</thumb>
-		<thumb name="IQ Questions (Audio)">assets/item_thumb_1.svg</thumb>
-		<thumb name="Math Questions">assets/item_thumb_2.svg</thumb>
-		<thumb name="Math Puzzles (Audio)">assets/item_thumb_5.svg</thumb>
+		<thumb name="Asociaciones">assets/item_thumb_0.svg</thumb>
+		<thumb name="Casita">assets/item_thumb_1.svg</thumb>
+		<thumb name="Eficiencia Energética">assets/item_thumb_2.svg</thumb>
+		<thumb name="Hornallas">assets/item_thumb_5.svg</thumb>
 		<thumb name="Multiple Choices">assets/item_thumb_6.svg</thumb>
 		<thumb name="Video">assets/item_thumb_4.svg</thumb>
 		<thumb name="All">assets/item_thumb_3.svg</thumb>
 	</category>
 	
 	<item>
-		<category>Drag and Drop</category>
+		<category>Asociaciones</category>
 		<landscape>
 			<question type="text" align="center" top="8"><![CDATA[Drag the right puzzle:]]></question>
 			<answers correctAnswer="" drag="true">
@@ -39,7 +39,7 @@
 	</item>
 	
 	<item>
-		<category>Drag and Drop</category>
+		<category>Asociaciones</category>
 		<landscape>
 			<question type="text"/>
 			<answers correctAnswer="" drag="true">
@@ -80,7 +80,7 @@
 	</item>
 	
 	<item>
-		<category>Drag and Drop</category>
+		<category>Asociaciones</category>
 		<landscape>
 			<question type="text" top="30" align="center"><![CDATA[The pilot flies a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   aeroplane.]]></question>
 			<answers correctAnswer="" drag="true">
@@ -111,7 +111,7 @@ aeroplane.]]></question>
 	</item>
 	
 	<item>
-		<category>Drag and Drop</category>
+		<category>Asociaciones</category>
 		<landscape>
 			<question type="text" top="10"><![CDATA[Dragging the labels into boxes]]></question>
 			<answers correctAnswer="" drag="true">
@@ -138,7 +138,7 @@ aeroplane.]]></question>
 	</item>
 	
 	<item>
-		<category>Drag and Drop</category>
+		<category>Asociaciones</category>
 		<landscape>
 			<question type="image" top="10">assets/questions/drag2.svg</question>
 			<answers correctAnswer="" drag="true">
@@ -223,7 +223,7 @@ aeroplane.]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" audio="assets/sounds/questions/iq_q3.ogg"><![CDATA[Forest is to tree as tree is to ?]]></question>
 			<answers correctAnswer="2">
@@ -250,7 +250,7 @@ aeroplane.]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" top="15" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
 			<answers correctAnswer="2">
@@ -277,7 +277,7 @@ aeroplane.]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" audio="assets/sounds/questions/iq_q2.ogg"><![CDATA[Take 2 apples from 3 apples.
 What do you have?]]></question>
@@ -297,7 +297,7 @@ What do you have?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" fontSize="40" top="20" audio="assets/sounds/questions/iq_q4.ogg"><![CDATA[The following series of numbers contains one number that does not fit the pattern set by the others.
 What number does not fit?  3, 5, 7, 11, 14, 17]]></question>
@@ -317,7 +317,7 @@ What number does not fit?  3, 5, 7, 11, 14, 17]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" top="20" audio="assets/sounds/questions/iq_q5.ogg"><![CDATA[A farmer had 17 sheep. All but 9 died.
 How many live sheep were left?]]></question>
@@ -337,7 +337,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" top="15" audio="assets/sounds/questions/iq_q6.ogg"><![CDATA[ The day after the day after tomorrow is four days before Monday. What day is it today? ]]></question>
 			<answers correctAnswer="1">
@@ -366,7 +366,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" audio="assets/sounds/questions/iq_q7.ogg"><![CDATA[ Book is to Reading as Fork is to? ]]></question>
 			<answers correctAnswer="4">
@@ -391,7 +391,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" top="15" audio="assets/sounds/questions/iq_q8.ogg" align="center"><![CDATA[If Bob sold 15 apples in a working week, what is the average number of apples he sells each day?]]></question>
 			<answers correctAnswer="2">
@@ -418,7 +418,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" audio="assets/sounds/questions/iq_q9.ogg"><![CDATA[“Pig is to pork” as “Cow is to ?”]]></question>
 			<answers correctAnswer="2">
@@ -443,7 +443,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" audio="assets/sounds/questions/iq_q10.ogg"><![CDATA[“Boat is to water” therefore “Plane is to ?”]]></question>
 			<answers correctAnswer="4">
@@ -468,7 +468,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" top="15" audio="assets/sounds/questions/iq_q11.ogg"><![CDATA[Which of these words do not title animals? ]]></question>
 			<answers correctAnswer="6">
@@ -501,7 +501,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="text" audio="assets/sounds/questions/iq_q12.ogg" top="18" align="center"><![CDATA[Some bracelets are valueble jewelry. All bracelets are made of gold. Which is true for sure?]]></question>
 			<answers correctAnswer="2">
@@ -522,7 +522,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>IQ Questions (Audio)</category>
+		<category>Casita</category>
 		<landscape>
 			<question type="image" top="15" width="60" left="20" audio="assets/sounds/questions/iq_q13.ogg">assets/questions/question_blank.svg</question>
 			<answers correctAnswer="5">
@@ -549,7 +549,7 @@ How many live sheep were left?]]></question>
 	</item>
 
 	<item>
-		<category>Math Puzzles (Audio)</category>
+		<category>Eficiencia Energética</category>
 		<landscape>
 			<question type="image" width="45" top="13" left="27.5" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q1.svg</question>
 			<answers correctAnswer="4">
@@ -576,7 +576,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>Math Puzzles (Audio)</category>
+		<category>Eficiencia Energética</category>
 		<landscape>
 			<question type="image" width="60" top="13" left="20" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q2.svg</question>
 			<inputs>
@@ -597,7 +597,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>Math Puzzles (Audio)</category>
+		<category>Eficiencia Energética</category>
 		<landscape>
 			<question type="image" width="60" top="13" left="20" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q3.svg</question>
 			<inputs>
@@ -618,7 +618,7 @@ How many live sheep were left?]]></question>
 	</item>
 	
 	<item>
-		<category>Math Puzzles (Audio)</category>
+		<category>Eficiencia Energética</category>
 		<landscape>
 			<question type="image" width="43" top="13" left="29.5" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q4.svg</question>
 			<answers correctAnswer="3">
@@ -649,7 +649,7 @@ The sum of the numbers in the segments of each quarter equals 11. ]]></explanati
 	</item>
 	
 	<item>
-		<category>Math Puzzles (Audio)</category>
+		<category>Eficiencia Energética</category>
 		<landscape>
 			<question type="image" width="45" top="15" left="27.5" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q5.svg</question>
 			<inputs>
@@ -703,7 +703,7 @@ The sum of the numbers in the segments of each quarter equals 11. ]]></explanati
 	</item>
 	
 	<item>
-		<category>Math Questions</category>
+		<category>Hornallas</category>
 		<landscape>
 			<question type="image" width="55" top="35" left="22.5">assets/questions/math_q7.svg</question>
 			<inputs>
@@ -726,7 +726,7 @@ The sum of the numbers in the segments of each quarter equals 11. ]]></explanati
 	</item>
 	
 	<item>
-		<category>Math Questions</category>
+		<category>Hornallas</category>
 		<landscape>
 			<question type="text" fontSize="100" lineHeight="100" top="20"><![CDATA[4 + 4 - 3 = ?]]></question>
 			<answers correctAnswer="2">
@@ -751,7 +751,7 @@ The sum of the numbers in the segments of each quarter equals 11. ]]></explanati
 	</item>
 	
 	<item>
-		<category>Math Questions</category>
+		<category>Hornallas</category>
 		<landscape>
 			<question type="text" top="25" fontSize="80" lineHeight="80"><![CDATA[( 45 - 9 ) + 33 = ?]]></question>
 			<answers correctAnswer="4">
@@ -778,7 +778,7 @@ The sum of the numbers in the segments of each quarter equals 11. ]]></explanati
 	</item>
 	
 	<item>
-		<category>Math Questions</category>
+		<category>Hornallas</category>
 		<landscape>
 			<question type="text" top="23"><![CDATA[9 x 3 = 27
 
@@ -803,7 +803,7 @@ Is it true or false?]]></question>
 	</item>
 	
 	<item>
-		<category>Math Questions</category>
+		<category>Hornallas</category>
 		<landscape>
 			<question type="image" width="45" left="27.5" top="15">assets/questions/math_q6.svg</question>
 			<answers correctAnswer="2">

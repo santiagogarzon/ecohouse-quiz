@@ -17,14 +17,14 @@ var maintainAspectRatio = true; //maintain aspect ratio
 var viewportMode = {
   enable: false,
   viewport: "portrait",
-  text: "Rotate your device <br/>to portrait",
+  text: "Rota tu dispositivo <br/>a portrait",
 }; //device viewport mode, portrait or landscape
 
-var loaderText = "Loading question..."; //game loading text
+var loaderText = "Cargando preguntas..."; //game loading text
 
 var categoryPage = true; //show/hide category select page
 var categoryAllOption = true; //add ALL category select option
-var categoryAllText = "All"; //text for all category select option
+var categoryAllText = "Todas"; //text for all category select option
 
 var questionTotalDisplay = "[NUMBER]/[TOTAL]:"; //current question and total question display
 var totalQuestions = 0; //set 0 for all questions, set more than 0 to limit total questions
@@ -72,9 +72,9 @@ var answerAnimationEnable = true; //enable answer animation
 
 var answerButtonBgEnable = true; //toggle answer button background
 var answerButtonBgRoundNumber = 15; //answer button background round corner number
-var answerButtonBgColour = "#a2cd4a"; //answer button background colour
-var answerButtonBgShadowColour = "#6fad4e"; //answer button background shadow colour
-var answeredButtonBgColour = "#f89a31"; //answered button background colour
+var answerButtonBgColour = "#E57102"; //answer button background colour
+var answerButtonBgShadowColour = "#C85E1C"; //answer button background shadow colour
+var answeredButtonBgColour = "#964a03"; //answered button background colour
 var answeredButtonBgShadowColour = "#dc4832"; //answered button background shadow colour
 var wrongButtonBgColour = "#989898"; //answered button background colour
 var wrongButtonBgShadowColour = "#666"; //answered button background shadow colour
@@ -126,8 +126,8 @@ var groupAlign = "right";
 var groupOffsetTop = -15;
 
 //correct or wrong property
-var correctDisplayText = "That's Correct!";
-var wrongDisplayText = "Incorrect!";
+var correctDisplayText = "Correcto!";
+var wrongDisplayText = "Incorrecto!";
 var quesResultFontSize = 50;
 var quesResultLineHeight = 50;
 var quesResultColor = "#fff";
@@ -140,7 +140,7 @@ var quesResultAlign = "center";
 //explanation property
 var explanationFontSize = 35;
 var explanationLineHeight = 35;
-var explanationColor = "#ccc";
+var explanationColor = "#fff";
 var explanationTop = 45;
 var explanationLeft = 5;
 var explanationWidth = 90;
@@ -149,14 +149,14 @@ var explanationAlign = "center";
 
 //result
 var scoreMode = "score"; //display result by 'score' or 'timer'
-var scoreDisplayText = "You score : [NUMBER]!"; //score result display text
-var timerDisplayText = "Best time : [NUMBER]!"; //timer result display text
+var scoreDisplayText = "Tu puntaje : [NUMBER]!"; //score result display text
+var timerDisplayText = "Mejor tiempo : [NUMBER]!"; //timer result display text
 
 //Social share, [SCORE] will replace with game score
 var shareEnable = true; //toggle share
-var shareTitle = "Highscore on Quiz Game 2 Game is [SCORE]pts"; //social share score title
+var shareTitle = "Mi mejor puntaje en EcoHouse quiz game es [SCORE]pts"; //social share score title
 var shareMessage =
-  "[SCORE] is mine new highscore on Quiz Game 2 Game! Try it now!"; //social share score message
+  "[SCORE] es mi nuevo puntaje mas alto en EcoHouse Quiz Game! Probalo ahora!"; //social share score message
 
 /*!
  *

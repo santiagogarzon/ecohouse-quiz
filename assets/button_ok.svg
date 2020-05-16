@@ -4,9 +4,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="210px" height="79px" viewBox="0 0 210 79" enable-background="new 0 0 210 79" xml:space="preserve">
 <g>
-	<path fill="#3F387B" d="M210,69c0,5.523-4.479,10-10,10H10C4.478,79,0,74.523,0,69V19C0,13.477,4.478,9,10,9h190
+	<path fill="#964a03" d="M210,69c0,5.523-4.479,10-10,10H10C4.478,79,0,74.523,0,69V19C0,13.477,4.478,9,10,9h190
 		c5.521,0,10,4.477,10,10V69z"/>
-	<path fill="#685FAA" d="M210,60c0,5.523-4.479,10-10,10H10C4.478,70,0,65.523,0,60V10C0,4.477,4.478,0,10,0h190
+	<path fill="#E57102" d="M210,60c0,5.523-4.479,10-10,10H10C4.478,70,0,65.523,0,60V10C0,4.477,4.478,0,10,0h190
 		c5.521,0,10,4.477,10,10V60z"/>
 	<g>
 		<g>
@@ -17,7 +17,7 @@
 			<clipPath id="SVGID_2_">
 				<use xlink:href="#SVGID_1_"  overflow="visible"/>
 			</clipPath>
-			<polygon clip-path="url(#SVGID_2_)" fill="#524E9B" points="209,2.429 3,70 215.75,70 			"/>
+			<polygon clip-path="url(#SVGID_2_)" fill="#C85E1C" points="209,2.429 3,70 215.75,70 			"/>
 		</g>
 	</g>
 </g>
