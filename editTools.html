@@ -1,0 +1,826 @@
+<div id="editWrapper">
+    <div id="floatForm">
+    	<input id='toggleShowOption' name="toggleOption" type="button" value="Hide Edit Option" />
+        
+        <div id="editOption">
+        	<br/>
+            Select viewport Mode:<br/>
+            <select id="modelist" name="modelist">
+                <option>landscape</option>
+                <option>portrait</option>
+            </select><br/><br/>
+            
+            <div id='selectQuestionWrapper'>
+                Select questions:<br/>
+                <select id="questionslist" name="questionslist">
+                </select><br/>
+                <input id="prevQuestion" name="prevQuestion" class="button" type="button" value="Prev Question">
+                <input id="nextQuestion" name="nextQuestion" class="button" type="button" value="Next Question">
+                <br/><br/>
+            </div>
+            <div id='topWrapper'>
+                <input id="removeQuestion" name="removeQuestion" type="button" value="Remove Question">
+                <input id="sortQuestion" name="sortQuestion" type="button" value="Sort Question">
+                <input id="newQuestion" name="newQuestion" type="button" value="New Question">
+                <br/><br/>
+            </div>
+            
+            
+            <div id="actionWrapper">
+                Edit category:<br/>
+                <input id='editCategory' name="editCategory" type="button" value="Edit Category" />
+                <br/><br/>
+                Edit question:<br/>
+                <input id='editQuestion' name="editQuestion" type="button" value="Edit Question" />
+                <input id='editAnswers' name="editAnswers" type="button" value="Edit Answers" />
+                <input id='editExplanation' name="editExplanation" type="button" value="Edit Explanation" />
+				<input id='editBackground' name="editBackground" type="button" value="Edit Background" />
+                <br/><br/>
+                Generate and replace XML file:<br/>
+                <input id='generateXML' name="generateXML" type="button" value="Generate XML" />
+                <textarea id="outputXML" name="outputXML" cols="" rows="10"></textarea>
+                <input id='saveXML' name="saveXML" type="button" value="Save XML" />
+            </div>
+            
+            <div id="selectAnswerWrapper" style="display:none;">
+                Select answer mode to edit:
+				<select id="answerMode" name="answerMode">
+					<option value="0">Single or Multiple Choices</option>
+					<option value="1">Draggable & Droppable</option>
+					<option value="2">Inputs</option>
+					<option value="3">Group Droppable</option>
+                </select>
+				<br/><br/>
+                <input id='editSelectAnswer' name="editSelectAnswer" type="button" value="Edit Single or Multiple Choices" />
+				<input id='editSelectDraggbleDroppable' name="editSelectDraggbleDroppable" type="button" value="Edit Draggable & Droppable" />
+                <input id='editSelectInputs' name="editSelectInputs" type="button" value="Edit Inputs" />
+				<input id='editSelectGroup' name="editSelectGroup" type="button" value="Edit Droppable" />
+				<input id='editSelectDraggble' name="editSelectDraggble" type="button" value="Edit Draggable" />
+				<br/><br/>
+                <input id='doneAnswerChoose' name="doneAnswerChoose" type="button" value="Done" />
+            </div>
+            
+            <div id='sortWrapper' style="display:none;">
+                Question list:
+                <select id="sortquestionslist" name="sortquestionslist" size="10">
+                </select>
+                <br/><br/>
+                <input id='moveQuestionUp' name="moveQuestionUp" class="button" type="button" value="Move Up" />
+                <input id='moveQuestionDown' name="moveQuestionDown" class="button" type="button" value="Move Down" />
+                <input id='doneSort' name="doneSort" type="button" value="Done" />
+            </div>
+            
+            <div id='sortAnswerWrapper' style="display:none;">
+                Answer list:
+               <select id="sortanswerslist" name="sortanswerslist" size="10">
+                </select>
+                <br/><br/>
+                <input id='moveAnswerUp' name="moveAnswerUp" class="button" type="button" value="Move Up" />
+                <input id='moveAnswerDown' name="moveAnswerDown" class="button" type="button" value="Move Down" />
+                <input id='doneSortAnswer' name="doneSortAnswer" type="button" value="Done" />
+            </div>
+			
+			<div id='sortGroupWrapper' style="display:none;">
+                Group list:
+               <select id="sortgroupslist" name="sortgroupslist" size="10">
+                </select>
+                <br/><br/>
+                <input id='moveGroupUp' name="moveGroupUp" class="button" type="button" value="Move Up" />
+                <input id='moveGroupDown' name="moveGroupDown" class="button" type="button" value="Move Down" />
+                <input id='doneSortGroup' name="doneSortGroup" type="button" value="Done" />
+            </div>
+            
+            <div id='sortInputWrapper' style="display:none;">
+                Input list:
+               <select id="sortinputslist" name="sortinputslist" size="10">
+                </select>
+                <br/><br/>
+                <input id='moveInputUp' name="moveInputUp" class="button" type="button" value="Move Up" />
+                <input id='moveInputDown' name="moveInputDown" class="button" type="button" value="Move Down" />
+                <input id='doneSortInput' name="doneSortInput" type="button" value="Done" />
+            </div>
+            
+            <div id='templateWrapper' style="display:none;">
+                Select template to add:
+               <select id="templatelist" name="templatelist" size="10">
+                </select>
+                <br/><br/>
+                <input id='addNewTemplate' name="addNewTemplate" type="button" value="Add Question" />
+                <input id='doneTemplate' name="doneTemplate" type="button" value="Done" />
+            </div>
+            
+            <div id='categoryWrapper' style="display:none;">
+                Select category to edit:
+               <select id="categorylist" name="categorylist" size="10">
+                </select>
+                <br/><br/>
+                <input id='addNewCategory' name="addNewCategory" type="button" value="Add Category" />
+                <input id='removeCategory' name="removeCategory" type="button" value="Remove Category" />
+                <br/><br/>
+                <div class="formRow" >
+                    <label class="button">Name:</label>
+                    <input id="categoryName" name="categoryName" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Thumbnail:</label>
+                    <input id="categoryThumbnail" name="categoryThumbnail" class="button" type="text" />
+                </div>
+                <input id='updateCategory' name="updateCategory" type="button" value="Update Category" />
+                <br/><br/>
+                <input id='doneCategory' name="doneCategory" type="button" value="Done" />
+            </div>
+            
+            <div id='questionWrapper' style="display:none;">
+                <input id='editVideo' name="editVideo" type="button" value="Edit Video" />
+                <br/><br/>
+                Edit question: 
+                <div class="formRow">
+                    <label class="button">Category:</label>
+                    <select id="category" class="half" name="category">
+                        
+                    </select>
+                </div>
+                
+                <div class="formRow">
+                    <label class="button">Type:</label>
+                    <select id="questiontype" class="half" name="questiontype">
+                        <option value="text">text</option>
+                        <option value="image">image</option>
+                    </select>
+                </div>
+                
+                <div class="formRow extraHeight">
+                    Text or image path:
+                    <textarea id="questionText" name="questionText" cols="" rows=""></textarea>
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Font Size:</label>
+                    <input id="questionFontSize" name="questionFontSize" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Line Height:</label>
+                    <input id="questionLineHeight" name="questionLineHeight" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Color:</label>
+                    <input id="questionColor" name="questionColor" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Text Align:</label>
+                    <select id="questionAlign" class="half" name="questionAlign">
+                        <option value="left">left</option>
+                        <option value="center">center</option>
+                        <option value="right">right</option>
+                    </select>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Width (0-100)%:</label>
+                    <input id="questionWidth" name="questionWidth" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Height (0-100)%:</label>
+                    <input id="questionHeight" name="questionHeight" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Top (0-100)%:</label>
+                    <input id="questionTop" name="questionTop" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Left (0-100)%:</label>
+                    <input id="questionLeft" name="questionLeft" class="button" type="text" />
+                </div>
+                <div class="formRowLong extraHeight" >
+                    <label class="button">Audio:</label>
+                    <input id="questionAudio" name="questionAudio" type="text" />
+                </div>
+                *Audio must have MP3 and OGG file format for cross-browser compatible, insert only OGG format for audio field.
+                <br/><br/>
+                
+                <input id='previewQuestion' name="previewQuestion" type="button" value="Preview Question" />
+                <input id='doneQuestion' name="doneQuestion" type="button" value="Done" />
+            </div>
+            
+            <div id='videoWrapper' style="display:none;">
+                Edit video:<br/><br/>
+            	Video embed type:
+                <select id="videoEmbed" name="videoEmbed">
+                	<option value="html">html</option>
+                    <option value="youtube">youtube</option>
+                </select>
+                <input id="removeVideoContainer" name="removeVideoContainer" type="button" value="Remove Video">
+                <br/><br/>
+                <div id="videoTypeWrapper" class="innerWrapper">
+                    Video type list:
+                    <select id="videoslist" name="videoslist">
+                    </select>
+                    
+                    <input id="prevVideo" name="prevVideo" class="button" type="button" value="Prev Video Type">
+                    <input id="nextVideo" name="nextVideo" class="button" type="button" value="Next Video Type">
+                    
+                    <input id="removeVideo" name="removeVideo" type="button" value="Remove Video Type">
+                    <input id="addVideo" name="addVideo" type="button" value="Add Video Type">
+                    <br/><br/>
+                    <div class="formRow" >
+                        <label class="button">Type:</label>
+                        <select id="videotype" class="half" name="videotype">
+                            <option value="video/mp4">video/mp4</option>
+                            <option value="video/webm">video/webm</option>
+                            <option value="video/ogg">video/ogg</option>
+                        </select>
+                    </div>
+                    <div class="formRowLong extraHeight" >
+                        Video path:
+                        <input id="videoSrc" name="videoSrc" class="resetVideo" type="text" />
+                    </div>
+                </div>
+                
+                <div id="youtubeTypeWrapper" class="innerWrapper">
+                    <div class="formRowLong extraHeight" >
+                        Youtube embed:
+                        <input id="youtubeSrc" name="youtubeSrc" class="resetVideo" type="text" />
+                    </div>
+                </div>
+                
+                <br/>
+                <div id="videoAutoplayField" class="formRow" >
+                    <label class="button">Autoplay:</label>
+                    <select id="videoAutoplay" class="half" name="videoAutoplay">
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </div>
+                <div id="videoControlsField" class="formRow" >
+                    <label class="button">Controls:</label>
+                    <select id="videoControls" class="half" name="videoControls">
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Width (0-100)%:</label>
+                    <input id="videoWidth" name="videoWidth" class="button resetVideo" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Height (0-100)%:</label>
+                    <input id="videoHeight" name="videoHeight" class="button resetVideo" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Top (0-100)%:</label>
+                    <input id="videoTop" name="videoTop" class="button resetVideo" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Left (0-100)%:</label>
+                    <input id="videoLeft" name="videoLeft" class="button resetVideo" type="text" />
+                </div>
+                <br/><br/>
+                
+                <input id='previewVideo' name="previewVideo" type="button" value="Preview Video" />
+                <input id='doneVideo' name="doneVideo" type="button" value="Done" />
+            </div>
+            
+            <div id='answersWrapper' style="display:none;">
+                Edit answers:
+                <br/><br/>
+                
+                <div class="formRow" >
+                    <label class="button">Draggable:</label>
+                    <select id="draggable" class="half" name="draggable">
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </div>
+                
+                <div id="correctAnswerWrapper" class="formRow" >
+                    <label class="button">Correct Answer:</label>
+                    <input id="correctAnswer" name="correctAnswer" class="button resetAnswer" type="text" />
+                </div>
+                
+                Answer list:
+                <select id="answerslist" name="answerslist">
+                </select>
+                
+                <input id="prevAnswer" name="prevAnswer" class="button" type="button" value="Prev Answer">
+                <input id="nextAnswer" name="nextAnswer" class="button" type="button" value="Next Answer">
+                
+                <input id="removeAnswer" name="removeAnswer" type="button" value="Remove Answer">
+                <input id="sortAnswer" name="sortAnswer" type="button" value="Sort Answer">
+                <input id="addAnswer" name="addAnswer" type="button" value="Add Answer">
+                <br/><br/>
+                
+                <div class="formRow">
+                    <label class="button">Submit button:</label>
+                    <select id="answerSubmit" class="half" name="answerSubmit">
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </div>
+                
+                <div id="toggleDrag" class="formRow">
+                    <input id="editDroppable" name="editDroppable" class="button" type="button" value="Edit Droppable">
+                    <input id="editDraggable" name="editDraggable" class="button" type="button" value="Edit Draggable">
+                    <br/><br/>
+                </div>
+                
+                <div id="answerSection" class="innerWrapper">
+					<!--<div id="dragEnableOption" class="formRow">
+                        <label class="button">Draggable enable:</label>
+                        <select id="dragEnable" class="half" name="dragEnable">
+                            <option value="true">true</option>
+                            <option value="false">false</option>
+                        </select>
+                    </div>-->
+					
+                    <div class="formRow">
+                        <label class="button">Type:</label>
+                        <select id="answertype" class="half" name="answertype">
+                            <option value="text">text</option>
+                            <option value="image">image</option>
+                        </select>
+                    </div>
+                    
+                    <div class="formRow extraHeight">
+                        Text or image path:
+                        <textarea id="answerText" name="answerText" cols="" rows="1"></textarea>
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Font Size:</label>
+                        <input id="answerFontSize" name="answerFontSize" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Line Height:</label>
+                        <input id="answerLineHeight" name="answerLineHeight" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Color:</label>
+                        <input id="answerColor" name="answerColor" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Offset Top (0-100)%:</label>
+                        <input id="answerOffsetTop" name="answerOffsetTop" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Align:</label>
+                        <select id="answerAlign" class="half" name="answerAlign">
+                            <option value="left">left</option>
+                            <option value="center">center</option>
+                            <option value="right">right</option>
+                        </select>
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Width (0-100)%:</label>
+                        <input id="answerWidth" name="answerWidth" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Height (0-100)%:</label>
+                        <input id="answerHeight" name="answerHeight" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Top (0-100)%:</label>
+                        <input id="answerTop" name="answerTop" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Left (0-100)%:</label>
+                        <input id="answerLeft" name="answerLeft" class="button resetAnswer" type="text" />
+                    </div>
+                </div>
+                
+                <div id="dropSection" class="innerWrapper">
+                	<!--<div class="formRow">
+                        <label class="button">Droppable enable:</label>
+                        <select id="dropEnable" class="half" name="dropEnable">
+                            <option value="true">true</option>
+                            <option value="false">false</option>
+                        </select>
+                    </div>-->
+                    
+                    Drop Label:
+                    <div class="formRow">
+                        <label class="button">Type:</label>
+                        <select id="dropLabelType" class="half" name="dropLabelType">
+                            <option value="text">text</option>
+                            <option value="image">image</option>
+                        </select>
+                    </div><br/>
+                    
+                    <div class="formRow extraHeight">
+                        Text or image path:
+                        <textarea id="dropLabelText" name="dropLabelText" cols="" rows="1" class="resetAnswer"></textarea>
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Font Size:</label>
+                        <input id="dropLabelFontSize" name="dropLabelFontSize" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Line Height:</label>
+                        <input id="dropLabelLineHeight" name="dropLabelLineHeight" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Color:</label>
+                        <input id="dropLabelColor" name="dropLabelColor" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Offset Top (0-100)%:</label>
+                        <input id="dropLabelOffsetTop" name="dropLabelOffsetTop" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Align:</label>
+                        <select id="dropLabelAlign" class="half" name="dropLabelAlign">
+                            <option value="left">left</option>
+                            <option value="center">center</option>
+                            <option value="right">right</option>
+                        </select>
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Width (0-100)%:</label>
+                        <input id="dropLabelWidth" name="dropLabelWidth" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Height (0-100)%:</label>
+                        <input id="dropLabelHeight" name="dropLabelHeight" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Top (0-100)%:</label>
+                        <input id="dropLabelTop" name="dropLabelTop" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Left (0-100)%:</label>
+                        <input id="dropLabelLeft" name="dropLabelLeft" class="button resetAnswer" type="text" />
+                    </div><br/>
+                    
+                    Drop area:
+                    <div class="formRow" >
+                        <label class="button">Width (0-100)%:</label>
+                        <input id="dropWidth" name="dropWidth" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Height (0-100)%:</label>
+                        <input id="dropHeight" name="dropHeight" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Top (0-100)%:</label>
+                        <input id="dropTop" name="dropTop" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Left (0-100)%:</label>
+                        <input id="dropLeft" name="dropLeft" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Offset Top (0-100)%:</label>
+                        <input id="dropOffTop" name="dropOffTop" class="button resetAnswer" type="text" />
+                    </div>
+                    
+                    <div class="formRow" >
+                        <label class="button">Offset Left (0-100)%:</label>
+                        <input id="dropOffLeft" name="dropOffLeft" class="button resetAnswer" type="text" />
+                    </div>
+                </div>
+                
+                <div class="formRowLong extraHeight" >
+                    <label class="button">Audio:</label>
+                    <input id="answerAudio" name="answerAudio" class="resetAnswer" type="text" />
+                </div>
+                *Audio must have MP3 and OGG file format for cross-browser compatible, insert only OGG format for audio field.
+                <br/><br/>
+                
+                <input id='previewAnswer' name="previewAnswer" type="button" value="Preview Answer" />
+                <input id='doneAnswer' name="doneAnswer" type="button" value="Done" />
+            </div>
+            
+            <div id='inputsWrapper' style="display:none;">
+                Edit inputs:
+                <select id="inputslist" name="inputslist">
+                </select>
+                
+                <input id="prevInput" name="prevInput" class="button" type="button" value="Prev Input">
+                <input id="nextInput" name="nextInput" class="button" type="button" value="Next Input">
+                
+                <input id="removeInput" name="removeInput" type="button" value="Remove Input">
+                <input id="sortInput" name="sortInput" type="button" value="Sort Input">
+                <input id="addInput" name="addInput" type="button" value="Add Input">
+                <br/><br/>
+                
+                <div class="formRow">
+                    <label class="button">Sumbit button:</label>
+                    <select id="inputSubmit" class="half" name="inputSubmit">
+                        <option value="true">true</option>
+                        <option value="false">false</option>
+                    </select>
+                </div>
+                
+                <div class="formRow">
+                    <label class="button">Type:</label>
+                    <select id="inputtype" class="half" name="inputtype">
+                        <option value="blank">blank</option>
+                        <option value="text">text</option>
+                        <option value="image">image</option>
+                    </select>
+                </div>
+                
+                <div class="formRow extraHeight">
+                    Placeholder, text or image path:
+                    <textarea id="inputText" name="inputText" cols="" rows="1" class="resetInput"></textarea>
+                </div>
+                
+                <div id="correctInputWrapper" class="formRow" >
+                    <label class="button">Correct Input:</label>
+                    <input id="correctInput" name="correctInput" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Font Size:</label>
+                    <input id="inputFontSize" name="inputFontSize" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Line Height:</label>
+                    <input id="inputLineHeight" name="inputLineHeight" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Offset Top (0-100)%:</label>
+                    <input id="inputOffsetTop" name="inputOffsetTop" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Color:</label>
+                    <input id="inputColor" name="inputColor" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Background:</label>
+                    <input id="inputBackground" name="inputBackground" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Align:</label>
+                    <select id="inputAlign" class="half" name="inputAlign">
+                        <option value="left">left</option>
+                        <option value="center">center</option>
+                        <option value="right">right</option>
+                    </select>
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Width (0-100)%:</label>
+                    <input id="inputWidth" name="inputWidth" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Height (0-100)%:</label>
+                    <input id="inputHeight" name="inputHeight" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Top (0-100)%:</label>
+                    <input id="inputTop" name="inputTop" class="button resetInput" type="text" />
+                </div>
+                
+                <div class="formRow" >
+                    <label class="button">Left (0-100)%:</label>
+                    <input id="inputLeft" name="inputLeft" class="button resetInput" type="text" />
+                </div><br/>
+                
+                <input id='previewInput' name="previewInput" type="button" value="Preview Input" />
+                <input id='doneInput' name="doneInput" type="button" value="Done" />
+            </div>
+            
+            <div id='explanationWrapper' style="display:none;">
+                Edit Explanation:
+                <div class="formRow">
+                    <label class="button">Type:</label>
+                    <select id="explanationtype" class="half" name="explanationtype">
+                        <option value="text">text</option>
+                        <option value="image">image</option>
+                    </select>
+                </div>
+                <div class="formRow extraHeight" >
+                    Text or image path:
+                    <textarea id="explanationText" name="explanationText" cols="" rows=""></textarea>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Font Size:</label>
+                    <input id="explanationFontSize" name="explanationFontSize" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Line Height:</label>
+                    <input id="explanationLineHeight" name="explanationLineHeight" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Color:</label>
+                    <input id="explanationColor" name="explanationColor" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Text Align:</label>
+                    <select id="explanationAlign" class="half" name="explanationAlign">
+                        <option value="left">left</option>
+                        <option value="center">center</option>
+                        <option value="right">right</option>
+                    </select>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Top (0-100)%:</label>
+                    <input id="explanationTop" name="explanationTop" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Left (0-100)%:</label>
+                    <input id="explanationLeft" name="explanationLeft" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Width (0-100)%:</label>
+                    <input id="explanationWidth" name="explanationWidth" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Height (0-100)%:</label>
+                    <input id="explanationHeight" name="explanationHeight" class="button" type="text" />
+                </div>
+                <div class="formRowLong extraHeight" >
+                    <label class="button">Audio:</label>
+                    <input id="explanationAudio" name="explanationAudio" type="text" />
+                </div>
+                *Audio must have MP3 and OGG file format for cross-browser compatible, insert only OGG format for audio field.
+                <br/><br/>
+                
+                <input id='previewExplanation' name="previewExplanation" type="button" value="Preview Explanation" />
+                <input id='doneExplanation' name="doneExplanation" type="button" value="Done" />
+            </div>
+			
+			<div id='backgroundWrapper' style="display:none;">
+                Edit Background:
+                <div class="formRow extraHeight" >
+                    Image path:
+                    <textarea id="backgroundImage" name="backgroundImage" cols="" rows=""></textarea>
+                </div>
+                <div class="formRow" >
+                    <label class="button">Top (0-100)%:</label>
+                    <input id="backgroundTop" name="backgroundTop" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Left (0-100)%:</label>
+                    <input id="backgroundLeft" name="backgroundLeft" class="button" type="text" />
+                </div>
+                <div class="formRow" >
+                    <label class="button">Width (0-100)%:</label>
+                    <input id="backgroundWidth" name="backgroundWidth" class="button" type="text" />
+                </div>
+                <br/><br/>
+                
+                <input id='previewBackground' name="previewBackground" type="button" value="Preview Background" />
+                <input id='doneBackground' name="doneBackground" type="button" value="Done" />
+            </div>
+			
+			<div id='groupsWrapper' style="display:none;">
+                Edit groups:
+                <br/><br/>
+                
+                Group list:
+                <select id="grouplist" name="grouplist">
+                </select>
+                
+                <input id="prevGroup" name="prevGroup" class="button" type="button" value="Prev Group">
+                <input id="nextGroup" name="nextGroup" class="button" type="button" value="Next Group">
+                
+                <input id="removeGroup" name="removeGroup" type="button" value="Remove Group">
+                <input id="sortGroup" name="sortGroup" type="button" value="Sort Group">
+                <input id="addGroup" name="addGroup" type="button" value="Add Group">
+                <br/><br/>
+				
+				<div class="formRow" >
+                    <label class="button">Correct Answer:</label>
+                    <input id="groupCorrectAnswer" name="groupCorrectAnswer" class="button resetAnswer" type="text" />
+                </div>
+				
+				Drop Label:
+				<div class="formRow">
+					<label class="button">Type:</label>
+					<select id="groupLabelType" class="half" name="groupLabelType">
+						<option value="text">text</option>
+						<option value="image">image</option>
+					</select>
+				</div><br/>
+
+				<div class="formRow extraHeight">
+					Text or image path:
+					<textarea id="groupLabelText" name="groupLabelText" cols="" rows="1" class="resetAnswer"></textarea>
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Font Size:</label>
+					<input id="groupLabelFontSize" name="groupLabelFontSize" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Line Height:</label>
+					<input id="groupLabelLineHeight" name="groupLabelLineHeight" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Color:</label>
+					<input id="groupLabelColor" name="groupLabelColor" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Offset Top (0-100)%:</label>
+					<input id="groupLabelOffsetTop" name="groupLabelOffsetTop" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Align:</label>
+					<select id="groupLabelAlign" class="half" name="groupLabelAlign">
+						<option value="left">left</option>
+						<option value="center">center</option>
+						<option value="right">right</option>
+					</select>
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Width (0-100)%:</label>
+					<input id="groupLabelWidth" name="groupLabelWidth" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Height (0-100)%:</label>
+					<input id="groupLabelHeight" name="groupLabelHeight" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Top (0-100)%:</label>
+					<input id="groupLabelTop" name="groupLabelTop" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Left (0-100)%:</label>
+					<input id="groupLabelLeft" name="groupLabelLeft" class="button resetAnswer" type="text" />
+				</div><br/>
+				
+				Drop area:
+				<div class="formRow" >
+                    <label class="button">Maximum objects:</label>
+                    <input id="groupDropMax" name="groupDropMax" class="button resetAnswer" type="text" />
+                </div>
+				
+				<div class="formRow" >
+					<label class="button">Width (0-100)%:</label>
+					<input id="groupDropWidth" name="groupDropWidth" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Height (0-100)%:</label>
+					<input id="groupDropHeight" name="groupDropHeight" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Top (0-100)%:</label>
+					<input id="groupDropTop" name="groupDropTop" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Left (0-100)%:</label>
+					<input id="groupDropLeft" name="groupDropLeft" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Offset Top (0-100)%:</label>
+					<input id="groupDropOffTop" name="groupDropOffTop" class="button resetAnswer" type="text" />
+				</div>
+
+				<div class="formRow" >
+					<label class="button">Offset Left (0-100)%:</label>
+					<input id="groupDropOffLeft" name="groupDropOffLeft" class="button resetAnswer" type="text" />
+				</div>
+                
+                <div class="formRowLong extraHeight" >
+                    <label class="button">Audio:</label>
+                    <input id="groupAudio" name="groupAudio" class="resetAnswer" type="text" />
+                </div>
+                *Audio must have MP3 and OGG file format for cross-browser compatible, insert only OGG format for audio field.
+                <br/><br/>
+                
+                <input id='previewGroup' name="previewGroup" type="button" value="Preview Group" />
+                <input id='doneGroup' name="doneGroup" type="button" value="Done" />
+            </div>
+         </div>
+    </div>
+</div>
