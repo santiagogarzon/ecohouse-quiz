@@ -42,7 +42,7 @@ var coundownTimer = 25000; //countdown timer
 //question property
 var questionFontSize = 50;
 var questionLineHeight = 58;
-var questionColor = "#fff";
+var questionColor = "#035c98";
 var questionTop = 25;
 var questionLeft = 5;
 var questionWidth = 90;
@@ -86,7 +86,7 @@ var audioAnswerDelay = 100; //timer delay to play answer audio
 var inputFontSize = 40;
 var inputLineHeight = 40;
 var inputColor = "#333";
-var inputBackground = "#fff";
+var inputBackground = "#035c98";
 var inputAlign = "center";
 var inputWidth = 20;
 var inputHeight = 12;
@@ -99,18 +99,18 @@ var dragRevertSpeed = 0.5; //revert speed
 var dragListEnable = false; //enable drag answer list style
 var dragDroppedAnswerAgain = true; //enable drag answer again after dropped
 var dragRandomAnswer = false; //enable drag answer display in random sequence
-var dropBorder = "#fff";
+var dropBorder = "#035c98";
 var dropStroke = "1px";
 var dropBackground = "";
 
 var dropLabelFontSize = 50;
 var dropLabelLineHeight = 50;
-var dropLabelColor = "#fff";
+var dropLabelColor = "#035c98";
 var dropLabelAlign = "right";
 var dropLabelOffsetTop = -15;
 
 //group drop property
-var groupBorder = "#fff";
+var groupBorder = "#035c98";
 var groupStroke = "1px";
 var groupBackground = "";
 var groupDropMax = 4;
@@ -121,7 +121,7 @@ var groupDropOffTop = 3;
 
 var groupFontSize = 50;
 var groupLineHeight = 50;
-var groupColor = "#fff";
+var groupColor = "#035c98";
 var groupAlign = "right";
 var groupOffsetTop = -15;
 
@@ -130,7 +130,7 @@ var correctDisplayText = "Correcto!";
 var wrongDisplayText = "Incorrecto!";
 var quesResultFontSize = 50;
 var quesResultLineHeight = 50;
-var quesResultColor = "#fff";
+var quesResultColor = "#035c98";
 var quesResultTop = 30;
 var quesResultLeft = 5;
 var quesResultWidth = 90;
@@ -140,7 +140,7 @@ var quesResultAlign = "center";
 //explanation property
 var explanationFontSize = 35;
 var explanationLineHeight = 35;
-var explanationColor = "#fff";
+var explanationColor = "#035c98";
 var explanationTop = 45;
 var explanationLeft = 5;
 var explanationWidth = 90;
