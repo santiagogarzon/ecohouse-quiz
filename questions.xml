@@ -9,6 +9,29 @@
 		<thumb name="Todas">assets/item_thumb_3.svg</thumb>
 	</category>
 
+
+<item>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cual es la forma mas ecologica de viajar?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" top="40" left="9" align="center" dropLabelType="text" dropLabelAlign="left" width="36" height="44">assets/energia/Auto.svg</answer>
+				<answer top="37" type="image" left="52" align="center" dropLabelType="text" dropLabelAlign="left" width="33" height="47">assets/energia/Colectivo.svg</answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cual es la forma mas ecologica de viajar?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" width="46" height="19" top="50" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left">assets/energia/Auto.svg</answer>
+				<answer width="45" height="32" top="48" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="55">assets/energia/Colectivo.svg</answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
 <item>
 		<category>Energía</category>
 		<landscape>
