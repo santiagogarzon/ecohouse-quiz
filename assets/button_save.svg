@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="59.802px" height="65.988px" viewBox="0 0 59.802 65.988" enable-background="new 0 0 59.802 65.988" xml:space="preserve">
+	 viewBox="0 0 59.8 66" style="enable-background:new 0 0 59.8 66;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#964A03;}
+	.st1{fill:#E57102;}
+	.st2{fill:#C85E1C;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
 <g id="XMLID_12_">
-	<circle id="XMLID_23_" fill=" #964a03" cx="29.901" cy="36.086" r="29.901"/>
-	<circle id="XMLID_20_" fill="#E57102" cx="29.901" cy="29.901" r="29.9"/>
-	<path id="XMLID_14_" fill="#C85E1C" d="M51.043,51.043c11.678-11.677,11.678-30.609,0-42.285L8.758,51.043
-		C20.435,62.721,39.366,62.721,51.043,51.043z"/>
+	<circle id="XMLID_23_" class="st0" cx="29.9" cy="36.1" r="29.9"/>
+	<circle id="XMLID_20_" class="st1" cx="29.9" cy="29.9" r="29.9"/>
+	<path id="XMLID_14_" class="st2" d="M51,51c11.7-11.7,11.7-30.6,0-42.3L8.8,51C20.4,62.7,39.4,62.7,51,51z"/>
 </g>
 <g>
-	<rect x="14.401" y="13.624" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="31" height="4.711"/>
-	<rect x="14.401" y="13.624" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="4.375" height="12.461"/>
-	<rect x="41.026" y="13.624" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="4.375" height="12.461"/>
-	<rect x="25.567" y="32.582" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="9.333" height="13.782"/>
-	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="30.234,25.419 30.234,33.14 19.317,33.14 	"/>
-	<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="41.151,33.14 30.234,25.419 30.234,33.14 	"/>
+	<rect x="14.4" y="13.6" class="st3" width="31" height="4.7"/>
+	<rect x="14.4" y="13.6" class="st3" width="4.4" height="12.5"/>
+	<rect x="41" y="13.6" class="st3" width="4.4" height="12.5"/>
+	<rect x="25.6" y="32.6" class="st3" width="9.3" height="13.8"/>
+	<polygon class="st3" points="30.2,25.4 30.2,33.1 19.3,33.1 	"/>
+	<polyline class="st3" points="41.2,33.1 30.2,25.4 30.2,33.1 	"/>
 </g>
 </svg>

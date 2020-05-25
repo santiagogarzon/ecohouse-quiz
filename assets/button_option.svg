@@ -4,9 +4,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="50px" height="55px" viewBox="0 0 50 55" enable-background="new 0 0 50 55" xml:space="preserve">
 <g>
-	<path fill="#964a03" d="M50,45c0,5.523-4.478,10-10,10H10C4.478,55,0,50.523,0,45V15C0,9.477,4.478,5,10,5h30
+	<path fill="#3F387B" d="M50,45c0,5.523-4.478,10-10,10H10C4.478,55,0,50.523,0,45V15C0,9.477,4.478,5,10,5h30
 		c5.522,0,10,4.477,10,10V45z"/>
-	<path fill="#E57102" d="M50,40c0,5.523-4.478,10-10,10H10C4.478,50,0,45.523,0,40V10C0,4.477,4.478,0,10,0h30
+	<path fill="#685FAA" d="M50,40c0,5.523-4.478,10-10,10H10C4.478,50,0,45.523,0,40V10C0,4.477,4.478,0,10,0h30
 		c5.522,0,10,4.477,10,10V40z"/>
 	<g>
 		<defs>
@@ -16,7 +16,7 @@
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  overflow="visible"/>
 		</clipPath>
-		<polygon clip-path="url(#SVGID_2_)" fill="#C85E1C" points="49,2.429 3,50 55.75,50 		"/>
+		<polygon clip-path="url(#SVGID_2_)" fill="#524E9B" points="49,2.429 3,50 55.75,50 		"/>
 	</g>
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M31.644,24.948c0,3.248-2.688,5.972-5.975,5.972
 		c-3.359,0-5.973-2.762-5.973-5.972c0-3.361,2.763-5.937,5.937-5.937C29.029,19.012,31.644,21.774,31.644,24.948z M27.312,9.418

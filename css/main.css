@@ -297,6 +297,7 @@ html {
   margin: 0 2%;
 }
 .categoryContent .categoryTitle {
+  color: #107fc9;
   padding: 5%;
   text-align: center;
 }
@@ -421,6 +422,7 @@ html {
 }
 #groupHolder .groupDrop,
 #groupHolder .groupDropLabel {
+  color: #107fc9 !important;
   position: absolute;
   width: 100%;
   white-space: pre-line;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><questions>
 	<category>
-		<thumb name="Asociaciones">assets/item_thumb_0.svg</thumb>
+		<thumb name="Energía">assets/item_thumb_0.svg</thumb>
 		<thumb name="Casita">assets/item_thumb_1.svg</thumb>
 		<thumb name="Eficiencia Energética">assets/item_thumb_2.svg</thumb>
 		<thumb name="Hornallas">assets/item_thumb_5.svg</thumb>
@@ -8,9 +8,155 @@
 		<thumb name="Video">assets/item_thumb_4.svg</thumb>
 		<thumb name="Todas">assets/item_thumb_3.svg</thumb>
 	</category>
-	
+
+<item>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[En invierno, ¿bañarse a que hora ahorra energia?]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" top="48" left="16" align="center" dropLabelType="text" dropLabelAlign="left" width="24" height="48">assets/energia/ducha1.svg</answer>
+				<answer top="48" type="image" left="53" align="center" dropLabelType="text" dropLabelAlign="left" width="24" height="49">assets/energia/ducha2.svg</answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[En invierno, ¿bañarse a que hora ahorra energía?]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="image" width="45" height="30" top="48" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="1">assets/energia/ducha2.svg</answer>
+				<answer width="45" height="32" top="48" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="55">assets/energia/ducha1.svg</answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+<item>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" top="52" left="17" align="center" dropLabelType="text" dropLabelAlign="left" width="21" height="42">assets/energia/Secarropas.svg</answer>
+				<answer top="58" type="image" left="45" align="center" dropLabelType="text" dropLabelAlign="left" width="42" height="29">assets/energia/sol.svg</answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="image" width="72" height="17" top="44" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="14">assets/energia/sol.svg</answer>
+				<answer width="47" height="33" top="67" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="27">assets/energia/Secarropas.svg</answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
 	<item>
-		<category>Asociaciones</category>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" top="9" align="center" width="46" height="64" left="2"><![CDATA[Las lamparitas 
+
+
+
+
+consumen un 80% menos energía.]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="40" type="image" width="13" height="27" left="59" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara1.svg</answer>
+				<answer top="9" type="image" width="13" height="27" left="59" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara2.svg</answer>
+				<answer top="79" type="text" submit="true" left="29" width="35" align="center" dropLabelType="text" dropLabelAlign="center" height="14"><![CDATA[Listo!]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="2" dropMax="1" dropWidth="20" dropHeight="29" dropLeft="15" dropTop="21" dropOffLeft=".8" dropOffTop="1" type="text" align="center" left="4" top="2"><![CDATA[]]></group>
+			</groups>
+		</landscape>
+		
+		<portrait>
+			<question type="text" top="8" align="center" fontSize="30" lineHeight="30" left="6" width="90" height="30"><![CDATA[Las lamparitas
+
+
+
+
+
+consumen un 80% menos de energia.]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="49" type="image" width="28" height="20" left="58" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara1.svg</answer>
+				<answer top="49" type="image" width="28" height="20" left="10" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara2.svg</answer>
+				<answer top="74" type="text" submit="true" left="33" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="2" dropMax="1" dropWidth="38" dropHeight="18" dropLeft="33" dropTop="16" dropOffLeft="1.7" dropOffTop="1" type="text" align="center"><![CDATA[]]></group>
+			</groups>
+		</portrait>
+	</item>
+
+	<item>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" top="20" align="center" width="90" height="30" left="4"><![CDATA[La temperatura más eficiente para el aire acondicionado es &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  .]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="48" type="image" width="25" height="17" left="15" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/AC15.svg</answer>
+				<answer top="48" type="image" width="25" height="17" left="52" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/AC24.svg</answer>
+				<answer top="79" type="text" submit="true" left="29" width="35" align="center" dropLabelType="text" dropLabelAlign="center" height="14"><![CDATA[Listo!]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="2" dropMax="1" dropWidth="25" dropHeight="17" dropLeft="54" dropTop="28" dropOffLeft=".8" dropOffTop="1" type="text" align="center" left="4" top="2"><![CDATA[]]></group>
+			</groups>
+		</landscape>
+		
+		<portrait>
+			<question type="text" top="16" align="center" fontSize="30" lineHeight="30" left="5" width="90" height="30"><![CDATA[La temperatura más eficiente para el aire acondiconado es
+]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="45" type="image" width="50" height="12" left="25" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/AC15.svg</answer>
+				<answer top="59" type="image" width="50" height="12" left="25" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/AC24.svg</answer>
+				<answer top="74" type="text" submit="true" left="33" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="2" dropMax="1" dropWidth="52" dropHeight="12" dropLeft="25" dropTop="31" dropOffLeft="1.7" dropOffTop="1" type="text" align="center"><![CDATA[]]></group>
+			</groups>
+		</portrait>
+	</item>
+	<item>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" top="2" align="center"><![CDATA[]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="55" type="text" width="20" height="11" left="5" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbon]]></answer>
+				<answer top="55" type="text" width="20" height="11" left="28" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
+				<answer top="55" type="text" width="20" height="11" left="51" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
+				<answer top="55" type="text" width="20" height="11" left="74" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
+				<answer top="68" type="text" width="22" height="11" left="4" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Hidroeléctrica]]></answer>
+				<answer top="68" type="text" width="20" height="11" left="28" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
+				<answer top="68" type="text" width="20" height="11" left="51" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
+				<answer top="68" type="text" width="20" height="11" left="74" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
+				<answer top="84" type="text" submit="true" left="32" width="35" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="5,6,7,8" dropWidth="43" dropHeight="30" dropLeft="5" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="10" left="5" width="43" height="10"><![CDATA[Renovables]]></group>
+				<group correctAnswer="1,2,3,4" dropWidth="43" dropHeight="30" dropLeft="51" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="10" left="51" width="43" height="10"><![CDATA[No Renovables]]></group>
+			</groups>
+		</landscape>
+		
+		<portrait>
+			<question type="text" align="center"><![CDATA[]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="59" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
+				<answer top="59" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
+				<answer top="59" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
+				<answer top="68" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Geotermia]]></answer>
+				<answer top="68" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
+				<answer top="68" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbón]]></answer>
+				<answer top="77" type="text" width="28" height="8" left="19" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
+				<answer top="77" type="text" width="28" height="8" left="51" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
+				<answer top="88" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+			</answers>
+			<groups>
+				<group correctAnswer="1,4,5,7" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="9" dropMax="4" align="center" type="text" color="#ccc" top="4" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[Renovable]]></group>
+				<group correctAnswer="2,3,6,8" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="35" dropMax="4" align="center" type="text" color="#ccc" top="30" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[No Renovable]]></group>
+			</groups>
+		</portrait>
+		</item>
+	<item>
+		<category>Energía</category>
 		<landscape>
 			<question type="text" align="center" top="21" fontSize="30" left="50" width="14" height="38"><![CDATA[Arrastra la tarjeta donde corresponda:]]></question>
 			<answers correctAnswer="" drag="true">
@@ -20,7 +166,7 @@
 			<groups>
 				<group correctAnswer="2" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="9" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="9">assets/asociaciones/2A.svg</group>
 				<group correctAnswer="1" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="36" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="36">assets/asociaciones/1A.svg</group>
-			<group type="image" correctAnswer="3" align="center" dropLeft="29" dropTop="63" dropWidth="15" dropHeight="20" width="15" height="20" left="9" top="63">assets/asociaciones/3A.svg</group></groups>
+			<group type="image" correctAnswer="3" align="center" dropLeft="29" dropTop="63" dropWidth="16" dropHeight="21" width="15" height="20" left="9" top="63">assets/asociaciones/3A.svg</group></groups>
 			<background top="19" left="10" width="50"/>
 		</landscape>
 		
@@ -33,13 +179,13 @@
 			<groups>
 				<group correctAnswer="1" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="38" dropMax="1" top="38" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/2A.svg</group>
 				<group correctAnswer="2" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="23" dropMax="1" top="23" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/1A.svg</group>
-			<group type="image" correctAnswer="3" align="center" dropWidth="27" dropHeight="12" width="27" height="12" dropLeft="38" dropTop="54" left="4" top="54">assets/asociaciones/3A.svg</group></groups>
+			<group type="image" correctAnswer="3" align="center" dropWidth="28" dropHeight="13" width="27" height="12" dropLeft="36" dropTop="54" left="4" top="54">assets/asociaciones/3A.svg</group></groups>
 			<background top="24" left="5" width="90"/>
 		<explanation type="text" align="center"><![CDATA[]]></explanation></portrait>
 	</item>
 	
 	<item>
-		<category>Asociaciones</category>
+		<category>Energía</category>
 		<landscape>
 			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la llama adecuada]]></question>
 			<answers correctAnswer="2" drag="false">
@@ -60,7 +206,7 @@
 	</item>
 	
 	<item>
-		<category>Asociaciones</category>
+		<category>Energía</category>
 		<landscape>
 			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Los electrodomesticos desperdician energia al estar enchufados]]></question>
 			<answers correctAnswer="1" drag="false">
@@ -79,132 +225,73 @@
 			<inputs/>
 		</portrait>
 	</item>
+
 	
 	<item>
-		<category>Asociaciones</category>
+		<category>Energía</category>
 		<landscape>
-			<question type="text"/>
-			<answers correctAnswer="" drag="true">
-				<answer top="55" type="text" width="20" height="11" left="5" align="center"><![CDATA[car]]></answer>
-				<answer top="55" type="text" width="20" height="11" left="28" align="center"><![CDATA[spaghetti]]></answer>
-				<answer top="55" type="text" width="20" height="11" left="51" align="center"><![CDATA[pancake]]></answer>
-				<answer top="55" type="text" width="20" height="11" left="74" align="center"><![CDATA[helicopter]]></answer>
-				<answer top="68" type="text" width="20" height="11" left="5" align="center"><![CDATA[train]]></answer>
-				<answer top="68" type="text" width="20" height="11" left="28" align="center"><![CDATA[pizza]]></answer>
-				<answer top="68" type="text" width="20" height="11" left="51" align="center"><![CDATA[bicycle]]></answer>
-				<answer top="68" type="text" width="20" height="11" left="74" align="center"><![CDATA[steak]]></answer>
-				<answer top="84" type="text" submit="true" left="32" width="35" align="center"><![CDATA[Done]]></answer>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[El mayor gasto de las lamparitas se produce al encenderlas]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
 			</answers>
-			<groups>
-				<group correctAnswer="1,4,5,7" dropWidth="43" dropHeight="30" dropLeft="5" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="10" left="5" width="43" height="10">Transport</group>
-				<group correctAnswer="2,3,6,8" dropWidth="43" dropHeight="30" dropLeft="51" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="10" left="51" width="43" height="10">Food</group>
-			</groups>
+			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" align="center"><![CDATA[]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="59" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center"><![CDATA[car]]></answer>
-				<answer top="59" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center"><![CDATA[spaghetti]]></answer>
-				<answer top="59" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center"><![CDATA[pancake]]></answer>
-				<answer top="68" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center"><![CDATA[helicopter]]></answer>
-				<answer top="68" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center"><![CDATA[train]]></answer>
-				<answer top="68" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center"><![CDATA[pizza]]></answer>
-				<answer top="77" type="text" width="28" height="8" left="19" fontSize="20" lineHeight="20" align="center"><![CDATA[bicycle]]></answer>
-				<answer top="77" type="text" width="28" height="8" left="51" fontSize="20" lineHeight="20" align="center"><![CDATA[steak]]></answer>
-				<answer top="88" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center"><![CDATA[Done]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[El mayor gasto de las lamparitas se produce al encenderlas.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
 			</answers>
-			<groups>
-				<group correctAnswer="1,4,5,7" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="9" dropMax="4" align="center" type="text" color="#ccc" top="4" left="5" width="90" height="5" fontSize="30" lineHeight="30">Transport</group>
-				<group correctAnswer="2,3,6,8" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="35" dropMax="4" align="center" type="text" color="#ccc" top="30" left="5" width="90" height="5" fontSize="30" lineHeight="30">Food</group>
-			</groups>
+			<inputs/>
 		</portrait>
 	</item>
-	
-	<item>
-		<category>Asociaciones</category>
-		<landscape>
-			<question type="text" top="30" align="center"><![CDATA[The pilot flies a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   aeroplane.]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="50" type="text" width="25" height="11" left="22" align="center"><![CDATA[big]]></answer>
-				<answer top="50" type="text" width="25" height="11" left="53" align="center"><![CDATA[clean]]></answer>
-				<answer top="74" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
-			</answers>
-			<groups>
-				<group correctAnswer="2" dropMax="1" dropWidth="26" dropHeight="11" dropLeft="42" dropTop="28" dropOffLeft=".8" dropOffTop="1"/>
-			</groups>
-		</landscape>
-		
-		<portrait>
-			<question type="text" top="20" align="center" fontSize="30" lineHeight="30"><![CDATA[The pilot flies a 
 
 
+	<item>
+		<category>Energía</category>
+		<landscape>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Cuando la llama de la hornalla sobrepasa la olla se desperdicia energía]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Cuando la llama de la hornalla sobrepasa la olla se desperdicia energía.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	
 
-aeroplane.]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="50" type="text" width="40" height="8" left="30" align="center" fontSize="20" lineHeight="20"><![CDATA[big]]></answer>
-				<answer top="60" type="text" width="40" height="8" left="30" align="center" fontSize="20" lineHeight="20"><![CDATA[clean]]></answer>
-				<answer top="74" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center"><![CDATA[Done]]></answer>
-			</answers>
-			<groups>
-				<group correctAnswer="2" dropMax="1" dropWidth="43" dropHeight="8" dropLeft="28" dropTop="29" dropOffLeft="1.7" dropOffTop="1"/>
-			</groups>
-		</portrait>
-	</item>
-	
 	<item>
-		<category>Asociaciones</category>
+		<category>Energía</category>
 		<landscape>
-			<question type="text" top="10"><![CDATA[Dragging the labels into boxes]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="24" type="text" width="25" height="11" left="65" dropLeft="33" dropTop="23" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="India" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="24" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Delhi]]></answer>
-				<answer top="38" type="text" width="25" height="11" left="65" dropLeft="33" dropTop="37" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="Pakistan" dropLabelTop="38" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Islamabad]]></answer>
-				<answer top="52" type="text" width="25" height="11" left="65" dropLeft="33" dropTop="51" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="USA" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="52" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Washington]]></answer>
-				<answer top="66" type="text" width="25" height="11" left="65" dropLeft="33" dropTop="65" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="Russia" dropLabelTop="65" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc" align="center" dropLabelType="text"><![CDATA[Moscow]]></answer>
-				<answer top="84" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Los electrodomésticos en standby no consumen energía.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" top="10" fontSize="30" lineHeight="30"><![CDATA[Dragging the labels into boxes]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="65" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="23" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="India" dropLabelTop="25" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8"><![CDATA[Delhi]]></answer>
-				<answer top="65" type="text" left="53" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="33" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="Pakistan" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelLeft="8" dropLabelTop="35" dropLabelWidth="30" dropLabelHeight="10"><![CDATA[Islamabad]]></answer>
-				<answer top="75" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="43" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="USA" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8" dropLabelTop="45" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc"><![CDATA[Washington]]></answer>
-				<answer top="75" type="text" left="53" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="53" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8" dropLabelTop="55" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelText="Russia"><![CDATA[Moscow]]></answer>
-				<answer top="85" type="text" submit="true" left="32" width="35" height="8" fontSize="20" lineHeight="20"><![CDATA[Done]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Los electrodomésticos en standby no consumen energía.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
 	
-	<item>
-		<category>Asociaciones</category>
-		<landscape>
-			<question type="image" top="10">assets/questions/drag2.svg</question>
-			<answers correctAnswer="" drag="true">
-				<answer top="24" type="image" width="25" left="65" dropLeft="33" dropTop="23" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1" align="center" dropLabelAlign="center">assets/questions/colour1.svg</answer>
-				<answer top="38" type="image" width="25" left="65" dropLeft="33" dropTop="37" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1">assets/questions/colour2.svg</answer>
-				<answer top="52" type="image" width="25" left="65" dropLeft="33" dropTop="51" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1">assets/questions/colour3.svg</answer>
-				<answer top="66" type="image" width="25" left="65" dropLeft="33" dropTop="65" dropWidth="26" dropHeight="11" dropOffLeft=".5" dropOffTop="1">assets/questions/colour4.svg</answer>
-				<answer top="84" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="image" top="10">assets/questions/drag2_mobile.svg</question>
-			<answers correctAnswer="" drag="true">
-				<answer top="65" type="image" left="9" width="40" fontSize="20" lineHeight="20" dropLeft="43" dropTop="23" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1">assets/questions/colour1.svg</answer>
-				<answer top="65" type="image" left="53" width="40" fontSize="20" lineHeight="20" dropLeft="43" dropTop="33" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1">assets/questions/colour2.svg</answer>
-				<answer top="75" type="image" left="9" width="40" fontSize="20" lineHeight="20" dropLeft="43" dropTop="43" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1">assets/questions/colour3.svg</answer>
-				<answer top="75" type="image" left="53" width="40" fontSize="20" lineHeight="20" dropLeft="43" dropTop="53" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1">assets/questions/colour4.svg</answer>
-				<answer top="85" type="text" submit="true" left="32" width="35" height="8" fontSize="20" lineHeight="20"><![CDATA[Done]]></answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
 	
 	<item>
 		<category>Multiple Choices</category>
