@@ -34,7 +34,7 @@ var enableRandomAnswer = false; //enable answer in random sequence
 var enableRevealAnswer = true; //enable reveal answer
 var enableExplanation = true; //enable show explanation
 
-var enableTimer = true; //true or false to enable timer
+var enableTimer = false; //true or false to enable timer
 var timerMode = "countdown"; //default or countdown mode
 var timerAllSession = false; //true for whole session, false for one single questions
 var coundownTimer = 25000; //countdown timer
