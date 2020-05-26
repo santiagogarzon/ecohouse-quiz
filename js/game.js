@@ -23,7 +23,7 @@ var viewportMode = {
 var loaderText = "Cargando preguntas..."; //game loading text
 
 var categoryPage = true; //show/hide category select page
-var categoryAllOption = true; //add ALL category select option
+var categoryAllOption = false; //add ALL category select option
 var categoryAllText = "Todas"; //text for all category select option
 
 var questionTotalDisplay = "[NUMBER]/[TOTAL]:"; //current question and total question display
@@ -421,7 +421,7 @@ function resetCategory() {
   if (gameData.mode == "portrait") {
     categoryData.max = 4;
   } else {
-    categoryData.max = 3;
+    categoryData.max = 4;
   }
 
   categoryData.total = categoryData.thumb / categoryData.max;

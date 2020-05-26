@@ -87,7 +87,7 @@ html {
   display: none;
   font-size: 30px;
   line-height: 30px;
-  color: #fff;
+  color: #0080ff;
   text-align: center;
   width: 100%;
   font-family: "alcubierreregular";
@@ -292,7 +292,7 @@ html {
   padding-top: 5%;
 }
 .categoryContent li {
-  width: 29%;
+  width: 21%;
   float: left;
   margin: 0 2%;
 }

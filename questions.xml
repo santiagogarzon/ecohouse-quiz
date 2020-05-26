@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><questions>
 	<category>
 		<thumb name="Energía">assets/item_thumb_0.svg</thumb>
-		<thumb name="Casita">assets/item_thumb_1.svg</thumb>
-		<thumb name="Eficiencia Energética">assets/item_thumb_2.svg</thumb>
-		<thumb name="Hornallas">assets/item_thumb_5.svg</thumb>
-		<thumb name="Multiple Choices">assets/item_thumb_6.svg</thumb>
-		<thumb name="Video">assets/item_thumb_4.svg</thumb>
-		<thumb name="Todas">assets/item_thumb_3.svg</thumb>
+		<thumb name="Gas y Monóxido de Carbono">assets/item_thumb_1.svg</thumb>
+		<thumb name="Agua">assets/item_thumb_2.svg</thumb>
+		<thumb name="Papel">assets/item_thumb_5.svg</thumb>
 	</category>
 
 
@@ -73,71 +70,50 @@
 			<inputs/>
 		</portrait>
 	</item>
-	<item>
+
+
+<item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" top="9" align="center" width="46" height="64" left="2"><![CDATA[Las lamparitas 
-
-
-
-
-consumen un 80% menos energía.]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="40" type="image" width="13" height="27" left="59" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara1.svg</answer>
-				<answer top="9" type="image" width="13" height="27" left="59" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara2.svg</answer>
-				<answer top="79" type="text" submit="true" left="29" width="35" align="center" dropLabelType="text" dropLabelAlign="center" height="14"><![CDATA[Listo!]]></answer>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cual de estas lamparitas consume un 80% menos de energia?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" top="46" left="14" align="center" dropLabelType="text" dropLabelAlign="left" width="25" height="51">assets/energia/Lampara1.svg</answer>
+				<answer top="46" type="image" left="59" align="center" dropLabelType="text" dropLabelAlign="left" width="25" height="50">assets/energia/Lampara2.svg</answer>
 			</answers>
-			<groups>
-				<group correctAnswer="2" dropMax="1" dropWidth="20" dropHeight="29" dropLeft="15" dropTop="21" dropOffLeft=".8" dropOffTop="1" type="text" align="center" left="4" top="2"><![CDATA[]]></group>
-			</groups>
+			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" top="8" align="center" fontSize="30" lineHeight="30" left="6" width="90" height="30"><![CDATA[Las lamparitas
-
-
-
-
-
-consumen un 80% menos de energia.]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="49" type="image" width="28" height="20" left="58" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara1.svg</answer>
-				<answer top="49" type="image" width="28" height="20" left="10" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/Lampara2.svg</answer>
-				<answer top="74" type="text" submit="true" left="33" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cual de estas lamparitas consume un 80% menos de energia?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" width="43" height="30" top="51" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="3">assets/energia/Lampara1.svg</answer>
+				<answer width="43" height="31" top="51" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="51">assets/energia/Lampara2.svg</answer>
 			</answers>
-			<groups>
-				<group correctAnswer="2" dropMax="1" dropWidth="38" dropHeight="18" dropLeft="33" dropTop="16" dropOffLeft="1.7" dropOffTop="1" type="text" align="center"><![CDATA[]]></group>
-			</groups>
+			<inputs/>
 		</portrait>
 	</item>
 
-	<item>
+<item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" top="20" align="center" width="90" height="30" left="4"><![CDATA[La temperatura más eficiente para el aire acondicionado es &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  .]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="48" type="image" width="25" height="17" left="15" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/AC15.svg</answer>
-				<answer top="48" type="image" width="25" height="17" left="52" align="center" dropLabelType="text" dropLabelAlign="center">assets/energia/AC24.svg</answer>
-				<answer top="79" type="text" submit="true" left="29" width="35" align="center" dropLabelType="text" dropLabelAlign="center" height="14"><![CDATA[Listo!]]></answer>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cual es la temperatura más eficiente para el aire acondicionado?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" top="49" left="6" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/energia/AC15.svg</answer>
+				<answer top="49" type="image" left="57" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/energia/AC24.svg</answer>
 			</answers>
-			<groups>
-				<group correctAnswer="2" dropMax="1" dropWidth="25" dropHeight="17" dropLeft="54" dropTop="28" dropOffLeft=".8" dropOffTop="1" type="text" align="center" left="4" top="2"><![CDATA[]]></group>
-			</groups>
+			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" top="16" align="center" fontSize="30" lineHeight="30" left="5" width="90" height="30"><![CDATA[La temperatura más eficiente para el aire acondiconado es
-]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="45" type="image" width="50" height="12" left="25" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/AC15.svg</answer>
-				<answer top="59" type="image" width="50" height="12" left="25" align="center" fontSize="20" lineHeight="20" dropLabelType="text" dropLabelAlign="center">assets/energia/AC24.svg</answer>
-				<answer top="74" type="text" submit="true" left="33" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cual es la temperatura más eficiente para el aire acondicionado?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" width="73" height="17" top="42" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="13">assets/energia/AC15.svg</answer>
+				<answer width="73" height="17" top="64" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="13">assets/energia/AC24.svg</answer>
 			</answers>
-			<groups>
-				<group correctAnswer="2" dropMax="1" dropWidth="52" dropHeight="12" dropLeft="25" dropTop="31" dropOffLeft="1.7" dropOffTop="1" type="text" align="center"><![CDATA[]]></group>
-			</groups>
+			<inputs/>
 		</portrait>
 	</item>
+
 	<item>
 		<category>Energía</category>
 		<landscape>
@@ -178,56 +154,6 @@ consumen un 80% menos de energia.]]></question>
 			</groups>
 		</portrait>
 		</item>
-	<item>
-		<category>Energía</category>
-		<landscape>
-			<question type="text" align="center" top="21" fontSize="30" left="50" width="14" height="38"><![CDATA[Arrastra la tarjeta donde corresponda:]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="57" width="15" height="20" left="70" type="image" align="center" dropLabelType="text" dropLabelAlign="center">assets/asociaciones/1B.svg</answer>
-				<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="33" width="15" height="20">assets/asociaciones/2B.svg</answer>
-			<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="9" width="15" height="20">assets/asociaciones/3B.svg</answer><answer top="85" type="text" submit="true" left="50" width="17" height="10" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer></answers>
-			<groups>
-				<group correctAnswer="2" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="9" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="9">assets/asociaciones/2A.svg</group>
-				<group correctAnswer="1" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="36" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="36">assets/asociaciones/1A.svg</group>
-			<group type="image" correctAnswer="3" align="center" dropLeft="29" dropTop="63" dropWidth="16" dropHeight="21" width="15" height="20" left="9" top="63">assets/asociaciones/3A.svg</group></groups>
-			<background top="19" left="10" width="50"/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" align="center" top="10" fontSize="20" left="5" width="89" height="10" lineHeight="20"><![CDATA[Arrastrar las tarjetas donde corresponda:]]></question>
-			<answers correctAnswer="" drag="true">
-				<answer top="23" width="27" height="12" left="70" type="image" align="center" dropLabelType="text" dropLabelAlign="center">assets/asociaciones/2B.svg</answer>
-				<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="38" width="27" height="12">assets/asociaciones/1B.svg</answer>
-			<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="54" width="27" height="12">assets/asociaciones/3B.svg</answer><answer top="81" type="text" submit="true" left="33" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer></answers>
-			<groups>
-				<group correctAnswer="1" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="38" dropMax="1" top="38" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/2A.svg</group>
-				<group correctAnswer="2" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="23" dropMax="1" top="23" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/1A.svg</group>
-			<group type="image" correctAnswer="3" align="center" dropWidth="28" dropHeight="13" width="27" height="12" dropLeft="36" dropTop="54" left="4" top="54">assets/asociaciones/3A.svg</group></groups>
-			<background top="24" left="5" width="90"/>
-		<explanation type="text" align="center"><![CDATA[]]></explanation></portrait>
-	</item>
-	
-	<item>
-		<category>Energía</category>
-		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la llama adecuada]]></question>
-			<answers correctAnswer="2" drag="false">
-				<answer type="image" top="54" left="15" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/1A.svg</answer>
-				<answer top="54" type="image" left="51" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/2A.svg</answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Selecciona cual es la llama correcta]]></question>
-			<answers correctAnswer="2" drag="false">
-				<answer type="image" width="70" height="32" top="28" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/1A.svg</answer>
-				<answer width="70" height="32" top="64" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/2A.svg</answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
-	
 	<item>
 		<category>Energía</category>
 		<landscape>
@@ -317,661 +243,516 @@ consumen un 80% menos de energia.]]></question>
 	
 	
 	<item>
-		<category>Multiple Choices</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" top="15" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
-			<answers correctAnswer="2,5">
-				<answer top="40" type="image" width="10" left="15">assets/questions/shape1.svg</answer>
-				<answer top="40" type="image" width="10" left="30">assets/questions/shape2.svg</answer>
-				<answer top="40" type="image" width="10" left="45">assets/questions/shape3.svg</answer>
-				<answer top="40" type="image" width="10" left="60">assets/questions/shape4.svg</answer>
-				<answer top="40" type="image" width="10" left="75">assets/questions/shape6.svg</answer>
-				<answer top="75" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
+			<question type="text" align="center" top="19" fontSize="30" left="48" width="18" height="55"><![CDATA[Arrastra las tarjetas de la derecha al cuadro donde correspondan:]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="57" width="15" height="20" left="70" type="image" align="center" dropLabelType="text" dropLabelAlign="center">assets/asociaciones/1B.svg</answer>
+				<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="33" width="15" height="20">assets/asociaciones/2B.svg</answer>
+			<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="9" width="15" height="20">assets/asociaciones/3B.svg</answer><answer top="85" type="text" submit="true" left="50" width="17" height="10" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Listo!]]></answer></answers>
+			<groups>
+				<group correctAnswer="2" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="9" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="9">assets/asociaciones/2A.svg</group>
+				<group correctAnswer="1" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="36" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="36">assets/asociaciones/1A.svg</group>
+				<group correctAnswer="3" dropWidth="15" dropHeight="20" dropLeft="29" dropTop="63" dropMax="1" width="15" height="20" type="image" align="center" dropOffLeft=".1" dropOffTop=".1" left="9" top="63">assets/asociaciones/3A.svg</group>
+			</groups>
+			<background top="19" left="10" width="50"/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" align="center" top="10" fontSize="20" left="5" width="89" height="10" lineHeight="20"><![CDATA[Arrastrar las tarjetas donde corresponda:]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="23" width="27" height="12" left="70" type="image" align="center" dropLabelType="text" dropLabelAlign="center">assets/asociaciones/2B.svg</answer>
+				<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="38" width="27" height="12">assets/asociaciones/1B.svg</answer>
+			<answer type="image" align="center" dropLabelType="text" dropLabelAlign="right" left="70" top="54" width="27" height="12">assets/asociaciones/3B.svg</answer><answer top="81" type="text" submit="true" left="33" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Done]]></answer></answers>
+			<groups>
+				<group correctAnswer="1" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="38" dropMax="1" top="38" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/2A.svg</group>
+				<group correctAnswer="2" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="23" dropMax="1" top="23" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/1A.svg</group>
+				<group correctAnswer="3" dropWidth="27" dropHeight="12" dropLeft="37" dropTop="54" dropMax="1" top="54" left="4" width="27" height="12" type="image" dropOffLeft=".1" dropOffTop=".1" align="center">assets/asociaciones/3A.svg</group>
+			</groups>
+			<background top="24" left="5" width="90"/>
+		<explanation type="text" align="center"><![CDATA[]]></explanation></portrait>
+	</item>
+	
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la llama adecuada]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" top="54" left="15" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/1A.svg</answer>
+				<answer top="54" type="image" left="51" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/2A.svg</answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="30" top="8" lineHeight="40" audio="assets/sounds/questions/iq_q1.ogg" align="center"><![CDATA[ Which shape does not fit the others? ]]></question>
-			<answers correctAnswer="2,5">
-				<answer top="25" type="image" width="25" left="17">assets/questions/shape1.svg</answer>
-				<answer top="25" type="image" width="25" left="57">assets/questions/shape2.svg</answer>
-				<answer top="43" type="image" width="25" left="17">assets/questions/shape3.svg</answer>
-				<answer top="43" type="image" width="25" left="57">assets/questions/shape4.svg</answer>
-				<answer top="63" type="image" width="25" left="36">assets/questions/shape6.svg</answer>
-				<answer top="83" type="text" submit="true" left="23" width="50" fontSize="30" lineHeight="30" height="10"><![CDATA[Done]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Selecciona cual es la llama correcta]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="image" width="70" height="32" top="28" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/1A.svg</answer>
+				<answer width="70" height="32" top="64" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/2A.svg</answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
-	
+
+
 	<item>
-		<category>Multiple Choices</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text"><![CDATA[Which is not number?]]></question>
-			<answers correctAnswer="1,3,4">
-				<answer type="text" top="41" width="35" left="14"><![CDATA[Space]]></answer>
-				<answer top="41" type="text" left="51" width="35"><![CDATA[999]]></answer>
-				<answer top="58" type="text" left="14" width="35"><![CDATA[7Eleven]]></answer>
-				<answer top="58" type="text" left="51" width="35"><![CDATA[Sixteen]]></answer>
-				<answer top="75" type="text" submit="true" left="32" width="35"><![CDATA[Done]]></answer>
-			</answers>
-			<inputs/>
-			<explanation/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[ Which is not number? ]]></question>
-			<answers correctAnswer="1,3,4">
-				<answer type="text" width="90" height="10" top="35" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[Space]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[999]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[7Eleven]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[Sixteen]]></answer>
-				<answer width="90" height="10" top="85" type="text" fontSize="30" lineHeight="30" offsetTop="-10" submit="true"><![CDATA[Done]]></answer>
-			</answers>
-			<inputs/>
-			<explanation/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" audio="assets/sounds/questions/iq_q3.ogg"><![CDATA[Forest is to tree as tree is to ?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q3_a.ogg"><![CDATA[Plant]]></answer>
-				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q3_b.ogg"><![CDATA[Leaf]]></answer>
-				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q3_c.ogg"><![CDATA[Branch]]></answer>
-				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q3_d.ogg"><![CDATA[Mangrove]]></answer>
-			</answers>
-			<inputs/>
-			<explanation audio="assets/sounds/questions/iq_q3_explain.ogg"><![CDATA[ As forest houses several trees, a tree has many leaves. Branches is a close choice but it is incorrect as all trees do not have branches. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="35" top="15" lineHeight="45" audio="assets/sounds/questions/iq_q3.ogg" align="center"><![CDATA[ Forest is to tree as tree is to ? ]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" width="90" height="10" top="35" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_a.ogg"><![CDATA[Plant]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_b.ogg"><![CDATA[Leaf]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_c.ogg"><![CDATA[Branch]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q3_d.ogg"><![CDATA[Mangrove]]></answer>
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/iq_q3_explain.ogg"><![CDATA[ As forest houses several trees, a tree has many leaves. Branches is a close choice but it is incorrect as all trees do not have branches. ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" top="15" audio="assets/sounds/questions/iq_q1.ogg"><![CDATA[ Which shape does not fit the others? ]]></question>
-			<answers correctAnswer="2">
-				<answer top="40" type="image" width="10" left="15">assets/questions/shape1.svg</answer>
-				<answer top="40" type="image" width="10" left="30">assets/questions/shape2.svg</answer>
-				<answer top="40" type="image" width="10" left="45">assets/questions/shape3.svg</answer>
-				<answer top="40" type="image" width="10" left="60">assets/questions/shape4.svg</answer>
-				<answer top="40" type="image" width="10" left="75">assets/questions/shape5.svg</answer>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿De que forma se identifican internacionalmente las tuberías externas de gas?.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="image" top="48" left="17" align="center" dropLabelType="text" dropLabelAlign="center" width="25" height="51">assets/gas/canilla1.svg</answer>
+				<answer top="48" type="image" left="57" align="center" dropLabelType="text" dropLabelAlign="center" width="25" height="51">assets/gas/canilla2.svg</answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="15" lineHeight="45" audio="assets/sounds/questions/iq_q1.ogg" align="center"><![CDATA[ Which shape does not fit the others? ]]></question>
-			<answers correctAnswer="2">
-				<answer top="35" type="image" width="25" left="17">assets/questions/shape1.svg</answer>
-				<answer top="35" type="image" width="25" left="57">assets/questions/shape2.svg</answer>
-				<answer top="53" type="image" width="25" left="17">assets/questions/shape3.svg</answer>
-				<answer top="53" type="image" width="25" left="57">assets/questions/shape4.svg</answer>
-				<answer top="72" type="image" width="25" left="36">assets/questions/shape5.svg</answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿De que forma se identifican internacionalmente las tuberías externas de gas?.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="image" width="40" height="27" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="57">assets/gas/canilla1.svg</answer>
+				<answer width="40" height="27" top="52" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="3">assets/gas/canilla2.svg</answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
-	
+
+
 	<item>
-		<category>Casita</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" audio="assets/sounds/questions/iq_q2.ogg"><![CDATA[Take 2 apples from 3 apples.
-What do you have?]]></question>
-			<inputs>
-				<input type="blank" correctAnswer="2"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="68" color="#fff" align="center"><![CDATA[OK]]></input>
-			</inputs>
-		</landscape>
+			<question type="text" top="15" left="8" width="44" height="38" align="center"><![CDATA[ Las manchas alrededor de los conductos pueden indicar: ]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer top="62" type="image" width="32" left="9" height="22" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa1.svg</answer>
+				<answer top="62" type="image" width="32" left="48" height="22" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa.svg</answer>
+			</answers>
+			<inputs/>
+		<background width="20" top="13" left="56">assets/gas/estufa2.svg</background></landscape>
 		
 		<portrait>
-			<question type="text" top="20" fontSize="35" lineHeight="45" audio="assets/sounds/questions/iq_q2.ogg" align="center"><![CDATA[ Take 2 apples from 3 apples.<br/>What do you have? ]]></question>
-			<inputs>
-				<input type="blank" correctAnswer="2" width="50" left="25" fontSize="50" lineHeight="50"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="67" color="#fff" left="25" width="50" fontSize="30" lineHeight="30" offsetTop="-15" align="center"><![CDATA[OK]]></input>
-			</inputs>
+			<question type="text" fontSize="30" top="8" lineHeight="40" align="center"><![CDATA[ Las manchas alrededor de los conductos pueden indicar:]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer top="65" type="image" width="57" left="21" height="14" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa1.svg</answer>
+				<answer top="84" type="image" width="57" left="21" height="14" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa.svg</answer>
+			</answers>
+			<inputs/>
+			<background width="44" top="29" left="28">assets/gas/estufa2.svg</background>
 		</portrait>
 	</item>
 	
+
+
 	<item>
-		<category>Casita</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" fontSize="40" top="20" audio="assets/sounds/questions/iq_q4.ogg"><![CDATA[The following series of numbers contains one number that does not fit the pattern set by the others.
-What number does not fit?  3, 5, 7, 11, 14, 17]]></question>
-			<inputs>
-				<input type="blank" correctAnswer="14"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="68" color="#fff" align="center"><![CDATA[OK]]></input>
-			</inputs>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="image" top="48" left="9" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama1.svg</answer>
+				<answer top="48" type="image" left="52" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama2.svg</answer>
+			</answers>
+			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="25" top="12" lineHeight="35" audio="assets/sounds/questions/iq_q4.ogg" align="center"><![CDATA[The following series of numbers contains one number that does not fit the pattern set by the others.  What number does not fit?  3, 5, 7, 11, 14, 17]]></question>
-			<inputs>
-				<input type="blank" correctAnswer="14" width="50" left="25" fontSize="50" lineHeight="50" top="55"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="72" color="#fff" left="25" width="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center"><![CDATA[OK]]></input>
-			</inputs>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="image" width="78" height="19" top="75" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama1.svg</answer>
+				<answer width="78" height="19" top="50" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama2.svg</answer>
+			</answers>
+			<inputs/>
 		</portrait>
 	</item>
-	
+
+
 	<item>
-		<category>Casita</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" top="20" audio="assets/sounds/questions/iq_q5.ogg"><![CDATA[A farmer had 17 sheep. All but 9 died.
-How many live sheep were left?]]></question>
-			<inputs>
-				<input type="blank" correctAnswer="9"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="68" color="#fff" align="center"><![CDATA[OK]]></input>
-			</inputs>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="35" top="16" lineHeight="45" audio="assets/sounds/questions/iq_q5.ogg" align="center"><![CDATA[A farmer had 17 sheep. All but 9 died. How many live sheep were left?]]></question>
-			<inputs>
-				<input type="blank" correctAnswer="9" width="50" left="25" fontSize="40" lineHeight="40"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="67" color="#fff" left="25" width="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center"><![CDATA[OK]]></input>
-			</inputs>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" top="15" audio="assets/sounds/questions/iq_q6.ogg"><![CDATA[ The day after the day after tomorrow is four days before Monday. What day is it today? ]]></question>
+			<question type="text"><![CDATA[El producto que le agrega al gas su característico olor se llama:]]></question>
 			<answers correctAnswer="1">
-				<answer top="40" type="text" width="35" left="14" audio="assets/sounds/questions/iq_q6_a.ogg"><![CDATA[Monday]]></answer>
-				<answer top="40" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q6_b.ogg"><![CDATA[Tuesday]]></answer>
-				<answer top="57" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q6_c.ogg"><![CDATA[Wednesday]]></answer>
-				<answer top="57" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q6_d.ogg"><![CDATA[Thursday]]></answer>
-				<answer top="74" type="text" left="32" width="35" audio="assets/sounds/questions/iq_q6_e.ogg"><![CDATA[Friday]]></answer>
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Mercaptán]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Marcapán]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[Mazapán]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[Mercepán]]></answer>
 			</answers>
 			<inputs/>
-			<explanation audio="assets/sounds/questions/iq_q6_explain.ogg"><![CDATA[ Four days before Monday is Thursday, simply because four days after Thursday is Monday. Besides, day after the day after tomorrow is Thursday only if present day is Monday. ]]></explanation>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="28" top="8" lineHeight="38" audio="assets/sounds/questions/iq_q6.ogg" align="center"><![CDATA[ The day after the day after tomorrow is four days before Monday. What day is it today? ]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[El producto que le agrega al gas su característico olor se llama:]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Mercaptán]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Marcapán]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Mazapán]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Mercepán]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text"><![CDATA[El gas tóxico que se genera en una combustión incompleta se denomina:]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Dióxido de carbono]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Monóxido de carbono]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[El gas tóxico que se genera en una combustión incompleta se denomina:]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Dióxido de carbono]]></answer>
+				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Monóxido de carbono]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text"><![CDATA[¿Que debemos hacer primero?]]></question>
 			<answers correctAnswer="1">
-				<answer type="text" width="90" height="10" top="36" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_a.ogg"><![CDATA[Monday]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_b.ogg"><![CDATA[Tuesday]]></answer>
-				<answer width="90" height="10" top="58" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_c.ogg"><![CDATA[Wednesday]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_d.ogg"><![CDATA[Thursday]]></answer>
-				<answer width="90" height="10" top="80" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q6_e.ogg"><![CDATA[Friday]]></answer>
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="20" lineHeight="20" audio="assets/sounds/questions/iq_q6_explain.ogg"><![CDATA[ Four days before Monday is Thursday, simply because four days after Thursday is Monday. Besides, day after the day after tomorrow is Thursday only if present day is Monday. ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" audio="assets/sounds/questions/iq_q7.ogg"><![CDATA[ Book is to Reading as Fork is to? ]]></question>
-			<answers correctAnswer="4">
-				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q7_a.ogg"><![CDATA[Drawing]]></answer>
-				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q7_b.ogg"><![CDATA[Writing]]></answer>
-				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q7_c.ogg"><![CDATA[Stirring]]></answer>
-				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q7_d.ogg"><![CDATA[Eating]]></answer>
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Prender el fósforo]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Abrir la llave de gas]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="15" lineHeight="45" audio="assets/sounds/questions/iq_q7.ogg" align="center"><![CDATA[ Book is to Reading as Fork is to? ]]></question>
-			<answers correctAnswer="4">
-				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_a.ogg"><![CDATA[Drawing]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_b.ogg"><![CDATA[Writing]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_c.ogg"><![CDATA[Stirring]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q7_d.ogg"><![CDATA[Eating]]></answer>
+			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[¿Que debemos hacer primero?]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Prender el fósforo]]></answer>
+				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Abrir la llave de gas]]></answer>
 			</answers>
 			<inputs/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" top="15" audio="assets/sounds/questions/iq_q8.ogg" align="center"><![CDATA[If Bob sold 15 apples in a working week, what is the average number of apples he sells each day?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q8_a.ogg"><![CDATA[1]]></answer>
-				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q8_b.ogg"><![CDATA[3]]></answer>
-				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q8_c.ogg"><![CDATA[6]]></answer>
-				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q8_d.ogg"><![CDATA[15]]></answer>
-			</answers>
-			<inputs/>
-			<explanation audio="assets/sounds/questions/iq_q8_explain.ogg"><![CDATA[ There are 5 days in a working week, so you divide 15 by 5 = 3. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="text" top="8" fontSize="25" lineHeight="35" audio="assets/sounds/questions/iq_q8.ogg" align="center"><![CDATA[If Bob sold 15 apples in a working week, what is the average number of apples he sells each day?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_a.ogg"><![CDATA[1]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_b.ogg"><![CDATA[3]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_c.ogg"><![CDATA[6]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q8_d.ogg"><![CDATA[15]]></answer>
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="30" lineHeight="30" audio="assets/sounds/questions/iq_q8_explain.ogg"><![CDATA[ There are 5 days in a working week, so you divide 15 by 5 = 3. ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" audio="assets/sounds/questions/iq_q9.ogg"><![CDATA[“Pig is to pork” as “Cow is to ?”]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q9_a.ogg"><![CDATA[Lamb]]></answer>
-				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q9_b.ogg"><![CDATA[Beef]]></answer>
-				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q9_c.ogg"><![CDATA[Stew]]></answer>
-				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q9_d.ogg"><![CDATA[Cattle]]></answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="35" top="15" lineHeight="45" audio="assets/sounds/questions/iq_q9.ogg" align="center"><![CDATA[“Pig is to pork” as “Cow is to ?”]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_a.ogg"><![CDATA[Lamb]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_b.ogg"><![CDATA[Beef]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_c.ogg"><![CDATA[Stew]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q9_d.ogg"><![CDATA[Cattle]]></answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" audio="assets/sounds/questions/iq_q10.ogg"><![CDATA[“Boat is to water” therefore “Plane is to ?”]]></question>
-			<answers correctAnswer="4">
-				<answer type="text" top="48" width="35" left="14" audio="assets/sounds/questions/iq_q10_a.ogg"><![CDATA[Fly]]></answer>
-				<answer top="48" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q10_b.ogg"><![CDATA[Sky]]></answer>
-				<answer top="65" type="text" left="14" width="35" audio="assets/sounds/questions/iq_q10_c.ogg"><![CDATA[Float]]></answer>
-				<answer top="65" type="text" left="51" width="35" audio="assets/sounds/questions/iq_q10_d.ogg"><![CDATA[Air]]></answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="33" top="10" lineHeight="43" audio="assets/sounds/questions/iq_q10.ogg" align="center"><![CDATA[“Boat is to water” therefore “Plane is to ?”]]></question>
-			<answers correctAnswer="4">
-				<answer type="text" width="90" height="10" top="35" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_a.ogg"><![CDATA[Fly]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_b.ogg"><![CDATA[Sky]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_c.ogg"><![CDATA[Float]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="35" lineHeight="35" offsetTop="-15" audio="assets/sounds/questions/iq_q10_d.ogg"><![CDATA[Air]]></answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="text" top="15" audio="assets/sounds/questions/iq_q11.ogg"><![CDATA[Which of these words do not title animals? ]]></question>
-			<answers correctAnswer="6">
-				<answer top="45" type="text" width="25" left="10" audio="assets/sounds/questions/iq_q11_a.ogg"><![CDATA[Koala]]></answer>
-				<answer top="45" type="text" left="37.5" width="25" audio="assets/sounds/questions/iq_q11_b.ogg"><![CDATA[Reptile]]></answer>
-				<answer top="45" type="text" left="65" width="25" audio="assets/sounds/questions/iq_q11_c.ogg"><![CDATA[Gorilla]]></answer>
-				<answer top="62" type="text" left="10" width="25" audio="assets/sounds/questions/iq_q11_d.ogg"><![CDATA[Gaseous]]></answer>
-				<answer top="62" type="text" left="37.5" width="25" audio="assets/sounds/questions/iq_q11_e.ogg"><![CDATA[Kangaroo]]></answer>
-				<answer top="62" type="text" left="65" width="25" audio="assets/sounds/questions/iq_q11_f.ogg"><![CDATA[Ant]]></answer>
-				<answer top="79" type="text" left="37.5" width="25" audio="assets/sounds/questions/iq_q11_g.ogg"><![CDATA[Bear]]></answer>
-			</answers>
-			<inputs/>
-			<explanation audio="assets/sounds/questions/iq_q11_explain.ogg"><![CDATA[ Ants are insects. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="30" top="10" lineHeight="40" audio="assets/sounds/questions/iq_q11.ogg" align="center"><![CDATA[Which of these words do not title animals? ]]></question>
-			<answers correctAnswer="6">
-				<answer type="text" width="90" top="30" height="8" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_a.ogg"><![CDATA[Koala]]></answer>
-				<answer width="90" height="8" top="39" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_b.ogg"><![CDATA[Reptile]]></answer>
-				<answer width="90" height="8" top="48" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_c.ogg"><![CDATA[Gorilla]]></answer>
-				<answer width="90" height="8" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_d.ogg"><![CDATA[Gaseous]]></answer>
-				<answer width="90" height="8" top="66" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_e.ogg"><![CDATA[Kangaroo]]></answer>
-				<answer width="90" height="8" top="75" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_f.ogg"><![CDATA[Ant]]></answer>
-				<answer width="90" height="8" top="84" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q11_g.ogg"><![CDATA[Bear]]></answer>
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="30" lineHeight="30" audio="assets/sounds/questions/iq_q11_explain.ogg"><![CDATA[ Ants are insects. ]]></explanation>
 		</portrait>
 	</item>
 
 	<item>
-		<category>Casita</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" audio="assets/sounds/questions/iq_q12.ogg" top="18" align="center"><![CDATA[Some bracelets are valueble jewelry. All bracelets are made of gold. Which is true for sure?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="55" width="70" left="15" audio="assets/sounds/questions/iq_q12_a.ogg"><![CDATA[Some bracelets are made of silver]]></answer>
-				<answer top="72" type="text" left="15" width="70" audio="assets/sounds/questions/iq_q12_b.ogg"><![CDATA[Some jewelry are made of gold]]></answer>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Colgar la ropa cerca de estufas o cocinas]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="30" lineHeight="40" top="8" audio="assets/sounds/questions/iq_q12.ogg" align="center"><![CDATA[Some bracelets are valueble jewelry. All bracelets are made of gold. Which is true for sure?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" width="90" height="15" top="45" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q12_a.ogg"><![CDATA[Some bracelets are made of silver]]></answer>
-				<answer width="90" height="15" top="65" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/iq_q12_b.ogg"><![CDATA[Some jewelry are made of gold]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Colgar la ropa cerca de estufas o cocinas]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
-	
-	<item>
-		<category>Casita</category>
-		<landscape>
-			<question type="image" top="15" width="60" left="20" audio="assets/sounds/questions/iq_q13.ogg">assets/questions/question_blank.svg</question>
-			<answers correctAnswer="5">
-				<answer top="65" type="image" width="10" left="15">assets/questions/blank1.svg</answer>
-				<answer top="65" type="image" width="10" left="30">assets/questions/blank2.svg</answer>
-				<answer top="65" type="image" width="10" left="45">assets/questions/blank3.svg</answer>
-				<answer top="65" type="image" width="10" left="60">assets/questions/blank4.svg</answer>
-				<answer top="65" type="image" width="10" left="75">assets/questions/blank5.svg</answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="20" audio="assets/sounds/questions/iq_q13.ogg">assets/questions/question_blank.svg</question>
-			<answers correctAnswer="5">
-				<answer top="46" type="image" width="25" left="17">assets/questions/blank1.svg</answer>
-				<answer top="46" type="image" width="25" left="57">assets/questions/blank2.svg</answer>
-				<answer top="60" type="image" width="25" left="17">assets/questions/blank3.svg</answer>
-				<answer top="60" type="image" width="25" left="57">assets/questions/blank4.svg</answer>
-				<answer top="72" type="image" width="25" left="36">assets/questions/blank5.svg</answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Eficiencia Energética</category>
-		<landscape>
-			<question type="image" width="45" top="13" left="27.5" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q1.svg</question>
-			<answers correctAnswer="4">
-				<answer type="text" top="72" width="15" left="18" audio="assets/sounds/questions/math_q1_a.ogg"><![CDATA[9]]></answer>
-				<answer top="72" type="text" left="35" width="15" audio="assets/sounds/questions/math_q1_b.ogg"><![CDATA[4]]></answer>
-				<answer top="72" type="text" left="52" width="15" audio="assets/sounds/questions/math_q1_c.ogg"><![CDATA[5]]></answer>
-				<answer top="72" type="text" left="69" width="15" audio="assets/sounds/questions/math_q1_d.ogg"><![CDATA[6]]></answer>
-			</answers>
-			<inputs/>
-			<explanation audio="assets/sounds/questions/math_q1_explain.ogg"><![CDATA[ Looking at the diagram in rows, the central circle equals half the sum of the numbers in the other circles to the left and right of the centre. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="8" width="80" left="10" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q1.svg</question>
-			<answers correctAnswer="4">
-				<answer type="text" width="90" height="8" top="44" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_a.ogg"><![CDATA[9]]></answer>
-				<answer width="90" height="8" top="54" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_b.ogg"><![CDATA[4]]></answer>
-				<answer width="90" height="8" top="64" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_c.ogg"><![CDATA[5]]></answer>
-				<answer width="90" height="8" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q1_d.ogg"><![CDATA[6]]></answer>
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q1_explain.ogg"><![CDATA[ Looking at the diagram in rows, the central circle equals half the sum of the numbers in the other circles to the left and right of the centre.  ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Eficiencia Energética</category>
-		<landscape>
-			<question type="image" width="60" top="13" left="20" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q2.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="9" top="60"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="78" color="#fff" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation audio="assets/sounds/questions/math_q2_explain.ogg"><![CDATA[ The number at the centre of each triangle equals the sum of the lower two numbers minus the top number. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="20" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q2.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="9" width="50" left="25" fontSize="50" lineHeight="50"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="68" color="#fff" fontSize="30" lineHeight="30" offsetTop="-15" left="25" width="50" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q2_explain.ogg"><![CDATA[ The number at the centre of each triangle equals the sum of the lower two numbers minus the top number. ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Eficiencia Energética</category>
-		<landscape>
-			<question type="image" width="60" top="13" left="20" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q3.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="3" top="62"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="79" color="#fff" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation audio="assets/sounds/questions/math_q3_explain.ogg"><![CDATA[ In each group of 3 numbers, the lower number equals the average of the top two numbers. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="20" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q3.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="3" left="25" width="50" fontSize="50" lineHeight="50"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="68" color="#fff" fontSize="30" lineHeight="30" offsetTop="-15" left="25" width="50" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q3_explain.ogg"><![CDATA[ In each group of 3 numbers, the lower number equals the average of the top two numbers. ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Eficiencia Energética</category>
-		<landscape>
-			<question type="image" width="43" top="13" left="29.5" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q4.svg</question>
-			<answers correctAnswer="3">
-				<answer type="text" top="72" width="15" left="18" audio="assets/sounds/questions/math_q4_a.ogg"><![CDATA[11]]></answer>
-				<answer top="72" type="text" left="35" width="15" audio="assets/sounds/questions/math_q4_b.ogg"><![CDATA[15]]></answer>
-				<answer top="72" type="text" left="52" width="15" audio="assets/sounds/questions/math_q4_c.ogg"><![CDATA[8]]></answer>
-				<answer top="72" type="text" left="69" width="15" audio="assets/sounds/questions/math_q4_d.ogg"><![CDATA[7]]></answer>
-			</answers>
-			<inputs/>
-			<explanation audio="assets/sounds/questions/math_q4_explain.ogg"><![CDATA[ Divide the circle, horizontally and vertically, to give 4 quarters.
 
-The sum of the numbers in the segments of each quarter equals 11. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="10" left="10" width="80" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q4.svg</question>
-			<answers correctAnswer="3">
-				<answer type="text" width="90" height="8" top="47" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_a.ogg"><![CDATA[11]]></answer>
-				<answer width="90" height="8" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_b.ogg"><![CDATA[15]]></answer>
-				<answer width="90" height="8" top="67" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_c.ogg"><![CDATA[8]]></answer>
-				<answer width="90" height="8" top="77" type="text" fontSize="30" lineHeight="30" offsetTop="-10" audio="assets/sounds/questions/math_q4_d.ogg"><![CDATA[7]]></answer>
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q4_explain.ogg"><![CDATA[ Divide the circle, horizontally and vertically, to give 4 quarters.
 
-The sum of the numbers in the segments of each quarter equals 11. ]]></explanation>
-		</portrait>
-	</item>
-	
 	<item>
-		<category>Eficiencia Energética</category>
+		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="image" width="45" top="15" left="27.5" audio="assets/sounds/questions/math_q.ogg" align="center">assets/questions/math_q5.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="39" top="80" left="30" align="center"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="81" color="#fff" left="52" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation audio="assets/sounds/questions/math_q5_explain.ogg"><![CDATA[ Working from top to bottom, double each number and subtract 1, then 2, then 3 etc. ]]></explanation>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="12" audio="assets/sounds/questions/math_q.ogg">assets/questions/math_q5.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="39" left="25" width="50" top="57" align="center"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="74" color="#fff" fontSize="30" lineHeight="30" offsetTop="-15" left="25" width="50" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation type="text" fontSize="25" lineHeight="25" audio="assets/sounds/questions/math_q5_explain.ogg"><![CDATA[ Working from top to bottom, double each number and subtract 1, then 2, then 3 etc. ]]></explanation>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Video</category>
-		<landscape>
-			<question type="text" top="13"><![CDATA[How many animals in the scene?]]></question>
-			<videos left="10" top="30" autoplay="true" controls="true" embed="html">
-				<video type="video/mp4">assets/questions/mov_bbb.mp4</video>
-			</videos>
-			<answers correctAnswer="3">
-				<answer type="text" top="31" width="35" left="54"><![CDATA[0]]></answer>
-				<answer top="48" type="text" left="54" width="35"><![CDATA[1]]></answer>
-				<answer top="65" type="text" left="54" width="35"><![CDATA[2]]></answer>
-				
-			</answers>
-			<inputs/>
-			<explanation/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="28" top="8" lineHeight="38" align="center"><![CDATA[How many animals in the scene?]]></question>
-			<videos left="5" top="22" width="90" height="33" autoplay="true" controls="true">
-				<video type="video/mp4">assets/questions/mov_bbb.mp4</video>
-			</videos>
-			<answers correctAnswer="3">
-				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[0]]></answer>
-				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[1]]></answer>
-				<answer width="90" height="10" top="84" type="text" fontSize="30" lineHeight="30" offsetTop="-10"><![CDATA[2]]></answer>
-				
-			</answers>
-			<inputs/>
-			<explanation type="text" fontSize="25" lineHeight="25"/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Hornallas</category>
-		<landscape>
-			<question type="image" width="55" top="35" left="22.5">assets/questions/math_q7.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="52" left="25" width="20"><![CDATA[?]]></input>
-				<input type="blank" correctAnswer="45" left="55" width="20"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="69" color="#fff" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation/>
-		</landscape>
-		
-		<portrait>
-			<question type="image" fontSize="35" top="22" lineHeight="35" width="60" left="20">assets/questions/math_q7_portrait.svg</question>
-			<inputs>
-				<input type="blank" correctAnswer="52" width="50" left="25" top="33"><![CDATA[?]]></input>
-				<input type="blank" correctAnswer="45" width="50" left="25" top="65"><![CDATA[?]]></input>
-				<input type="text" submit="true" top="83" color="#fff" left="25" width="50" fontSize="25" lineHeight="25" offsetTop="-20" align="center"><![CDATA[OK]]></input>
-			</inputs>
-			<explanation/>
-		</portrait>
-	</item>
-	
-	<item>
-		<category>Hornallas</category>
-		<landscape>
-			<question type="text" fontSize="100" lineHeight="100" top="20"><![CDATA[4 + 4 - 3 = ?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14"><![CDATA[4]]></answer>
-				<answer top="48" type="text" left="51" width="35"><![CDATA[5]]></answer>
-				<answer top="65" type="text" left="14" width="35"><![CDATA[6]]></answer>
-				<answer top="65" type="text" left="51" width="35"><![CDATA[7]]></answer>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Las instalaciones las debe a-hacer siempre un gasista matriculado]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="50" lineHeight="50" top="20"><![CDATA[4 + 4 - 3 = ?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" width="90" height="10" top="35" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[4]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[5]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[6]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[7]]></answer>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Las instalaciones las debe a-hacer siempre un gasista matriculado]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
-	
-	<item>
-		<category>Hornallas</category>
-		<landscape>
-			<question type="text" top="25" fontSize="80" lineHeight="80"><![CDATA[( 45 - 9 ) + 33 = ?]]></question>
-			<answers correctAnswer="4">
-				<answer type="text" top="55" width="25" left="10"><![CDATA[58]]></answer>
-				<answer top="55" type="text" left="37.5" width="25"><![CDATA[59]]></answer>
-				<answer top="55" type="text" left="65" width="25"><![CDATA[68]]></answer>
-				<answer top="72" type="text" left="23" width="25"><![CDATA[69]]></answer>
-				<answer top="72" type="text" left="51" width="25"><![CDATA[70]]></answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="45" lineHeight="45" top="20"><![CDATA[( 45 - 9 ) + 33 = ?]]></question>
-			<answers correctAnswer="4">
-				<answer type="text" width="90" height="10" top="36" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[58]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[59]]></answer>
-				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[68]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[69]]></answer>
-				<answer width="90" height="10" top="80" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[70]]></answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
-<item>
-		<category>Hornallas</category>
-		<landscape>
-			<question type="text" top="23"><![CDATA[9 x 3 = 27
 
-Is it true or false?]]></question>
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[En baños o dormitorios debemos instalar artefactos de tiro balanceado]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[En baños o dormitorios debemos instalar artefactos de tiro balanceado]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos utilizar el horno y hornallas para calefaccionar]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos utilizar el horno y hornallas para calefaccionar]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos siempre ventilar las habitaciones]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos siempre ventilar las habitaciones]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos cerrar las llaves de gas cuando no lo usamos]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos cerrar las llaves de gas cuando no lo usamos]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Agua</category>
+		<landscape>
+			<question type="text" top="8"><![CDATA[Arrastra los botones para armar la frase correcta. Del 100% del agua...es...]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="29" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="28" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="97,5%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="29" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[salada]]></answer>
+				<answer top="43" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="42" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="2,5%" dropLabelTop="43" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[dulce-congelada]]></answer>
+				<answer top="57" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="56" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="0,3%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="57" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[consumible]]></answer>
+				<answer top="84" type="text" submit="true" left="32" width="35"><![CDATA[¡Listo!]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" top="6" fontSize="25" lineHeight="30" align="center" left="4" width="90" height="30"><![CDATA[Arrastra los botones para armar la frase correcta. Del 100% del agua...es...]]></question>
+			<answers correctAnswer="" drag="true">
+				<answer top="65" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="23" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="97,5%" dropLabelTop="25" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8"><![CDATA[es salada]]></answer>
+				<answer top="65" type="text" left="53" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="33" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="2,5%" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelLeft="8" dropLabelTop="35" dropLabelWidth="30" dropLabelHeight="10"><![CDATA[es dulce pero congelada]]></answer>
+				<answer top="75" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="43" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="0,3%" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8" dropLabelTop="45" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc"><![CDATA[es consumible]]></answer>
+				<answer top="85" type="text" submit="true" left="32" width="35" height="8" fontSize="20" lineHeight="20"><![CDATA[¡Listo!]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Agua</category>
+		<landscape>
+			<question type="text"><![CDATA[En Argentina, más del 70% del agua consumida se utiliza para:]]></question>
 			<answers correctAnswer="1">
-				<answer type="text" top="55" left="18"><![CDATA[True]]></answer>
-				<answer top="55" type="text" left="50"><![CDATA[False]]></answer>
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Riego]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Ganado]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="35" top="20" align="center"><![CDATA[9 x 3 = 27
+			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[En Argentina, más del 70% del agua consumida se utiliza para:]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Riego]]></answer>
+				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Ganado]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
 
-Is it true or false?]]></question>
-			<answers correctAnswer="1">
-				<answer type="text" width="90" height="10" top="45" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[True]]></answer>
-				<answer width="90" height="10" top="58" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[False]]></answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item><item>
-		<category>Hornallas</category>
+	<item>
+		<category>Agua</category>
 		<landscape>
-			<question type="image" width="45" left="27.5" top="15">assets/questions/math_q6.svg</question>
+			<question type="text"><![CDATA[En Argentina, el 9% del agua consumida se utiliza para:]]></question>
 			<answers correctAnswer="2">
-				<answer type="text" top="50" width="35" left="14"><![CDATA[5 - 2]]></answer>
-				<answer top="50" type="text" left="51" width="35"><![CDATA[4 - 2]]></answer>
-				<answer top="67" type="text" left="14" width="35"><![CDATA[5 - 1]]></answer>
-				<answer top="67" type="text" left="51" width="35"><![CDATA[2 - 1]]></answer>
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Consumo Humano]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Ganado]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="image" fontSize="35" lineHeight="35" top="10" align="center">assets/questions/math_q6.svg</question>
-			<answers correctAnswer="2">
-				<answer type="text" width="90" height="10" top="35" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[5 - 2]]></answer>
-				<answer width="90" height="10" top="47" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[4 - 2]]></answer>
-				<answer width="90" height="10" top="59" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[5 - 1]]></answer>
-				<answer width="90" height="10" top="71" type="text" fontSize="25" lineHeight="25" offsetTop="-15"><![CDATA[2 - 1]]></answer>
+			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[En Argentina, el 9% del agua consumida se utiliza para:]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Consumo Humano]]></answer>
+				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Ganado]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
-	</item></questions>
+	</item>
+
+	<item>
+		<category>Agua</category>
+		<landscape>
+			<question type="text"><![CDATA[¿Cuántos baldes se llenan con una gota por segundo?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[1 balde]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[2 baldes]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[3 baldes]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[4 baldes]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos baldes se llenan con una gota por segundo en 1 día?]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1 balde]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 baldes]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[3 baldes]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[4 baldes]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+	<item>
+		<category>Agua</category>
+		<landscape>
+			<question type="text"><![CDATA[¿Cuántos litros de agua consumimos al lavarnos los dientes con la canilla abierta?]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[10 litros]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[20 litros]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[30 litros]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[40 litros]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos litros de agua consumimos al lavarnos los dientes con la canilla abierta?]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[10 litros]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[20 litros]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[30 litros]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[40 litros]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+	
+	<item>
+		<category>Papel</category>
+		<landscape>
+			<question type="text"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[300 cm3]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[370 cm3]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[270 cm3]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[300 cm3]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[370 cm3]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[270 cm3]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+
+	<item>
+		<category>Papel</category>
+		<landscape>
+			<question type="text"><![CDATA[¿Cuanto papel se puede producir con un 1 árbol?.]]></question>
+			<answers correctAnswer="2">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[5 resmas]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[16 resmas]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[50 resmas]]></answer>	
+				<answer top="65" type="text" left="51" width="35"><![CDATA[80 resmas]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 resmas]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[16 resmas]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[50 resmas]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[80 resmas]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+
+	<item>
+		<category>Papel</category>
+		<landscape>
+			<question type="text"><![CDATA[al reciclar una tonelada ¿Cuantos arboles evito ser talados?.]]></question>
+			<answers correctAnswer="3">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[2 árboles]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[5 árboles]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[12 árboles]]></answer>	
+				<answer top="65" type="text" left="51" width="35"><![CDATA[20 árboles]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<answers correctAnswer="3" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 árboles]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 árboles]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[12 árboles]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[20 árboles]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
+	</questions>
