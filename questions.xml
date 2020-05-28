@@ -123,15 +123,15 @@
 				<answer top="55" type="text" width="20" height="11" left="28" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
 				<answer top="55" type="text" width="20" height="11" left="51" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
 				<answer top="55" type="text" width="20" height="11" left="74" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
-				<answer top="68" type="text" width="22" height="11" left="4" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Hidroeléctrica]]></answer>
+				<answer fontSize="30" top="68" type="text" width="20" height="11" left="5" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Hidroeléctrica]]></answer>
 				<answer top="68" type="text" width="20" height="11" left="28" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
 				<answer top="68" type="text" width="20" height="11" left="51" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
 				<answer top="68" type="text" width="20" height="11" left="74" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
 				<answer top="84" type="text" submit="true" left="32" width="35" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
 			</answers>
 			<groups>
-				<group correctAnswer="5,6,7,8" dropWidth="43" dropHeight="30" dropLeft="5" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="10" left="5" width="43" height="10"><![CDATA[Renovables]]></group>
-				<group correctAnswer="1,2,3,4" dropWidth="43" dropHeight="30" dropLeft="51" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="10" left="51" width="43" height="10"><![CDATA[No Renovables]]></group>
+				<group correctAnswer="5,6,7,8" dropWidth="43" dropHeight="30" dropLeft="5" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="12" left="5" width="43" height="10"><![CDATA[Renovables]]></group>
+				<group correctAnswer="1,2,3,4" dropWidth="43" dropHeight="30" dropLeft="51" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="12" left="51" width="43" height="10"><![CDATA[No Renovables]]></group>
 			</groups>
 		</landscape>
 		
@@ -323,7 +323,7 @@
 		<landscape>
 			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="image" top="48" left="9" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama1.svg</answer>
+				<answer type="image" top="48" left="9" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama.svg</answer>
 				<answer top="48" type="image" left="52" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama2.svg</answer>
 			</answers>
 			<inputs/>
@@ -332,7 +332,7 @@
 		<portrait>
 			<question type="text" fontSize="25" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="image" width="78" height="19" top="75" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama1.svg</answer>
+				<answer type="image" width="78" height="19" top="75" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama.svg</answer>
 				<answer width="78" height="19" top="50" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama2.svg</answer>
 			</answers>
 			<inputs/>
@@ -564,12 +564,12 @@
 	<item>
 		<category>Agua</category>
 		<landscape>
-			<question type="text" fontSize="30" top="8"><![CDATA[Arrastra los botones para armar la frase correcta. El agua total del planeta se divide en...]]></question>
+			<question type="text" fontSize="30" top="15"><![CDATA[Arrastra los botones para armar la frase correcta. El agua total del planeta se divide en...]]></question>
 			<answers correctAnswer="" drag="true">
-				<answer top="29" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="28" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="97,5%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="29" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Salada]]></answer>
-				<answer top="43" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="42" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="2,5%" dropLabelTop="43" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Dulce congelada]]></answer>
-				<answer top="57" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="56" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="0,3%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="57" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Consumible]]></answer>
-				<answer top="84" type="text" submit="true" left="32" width="35"><![CDATA[¡Listo!]]></answer>
+				<answer top="34" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="33" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="97,5%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="34" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Salada]]></answer>
+				<answer top="48" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="47" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="2,5%" dropLabelTop="48" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Dulce congelada]]></answer>
+				<answer top="62" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="61" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="0,3%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="62" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Consumible]]></answer>
+				<answer top="89" type="text" submit="true" left="32" width="35"><![CDATA[¡Listo!]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>

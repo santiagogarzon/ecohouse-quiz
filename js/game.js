@@ -36,8 +36,8 @@ var enableExplanation = true; //enable show explanation
 
 var enableTimer = true; //true or false to enable timer
 var timerMode = "countdown"; //default or countdown mode
-var timerAllSession = true; //true for whole session, false for one single questions
-var coundownTimer = 120000; //countdown timer
+var timerAllSession = false; //true for whole session, false for one single questions
+var coundownTimer = 30000; //countdown timer
 
 //question property
 var questionFontSize = 40;
