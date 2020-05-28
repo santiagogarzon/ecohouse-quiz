@@ -34,14 +34,14 @@ var enableRandomAnswer = false; //enable answer in random sequence
 var enableRevealAnswer = true; //enable reveal answer
 var enableExplanation = true; //enable show explanation
 
-var enableTimer = false; //true or false to enable timer
+var enableTimer = true; //true or false to enable timer
 var timerMode = "countdown"; //default or countdown mode
-var timerAllSession = false; //true for whole session, false for one single questions
-var coundownTimer = 25000; //countdown timer
+var timerAllSession = true; //true for whole session, false for one single questions
+var coundownTimer = 120000; //countdown timer
 
 //question property
-var questionFontSize = 50;
-var questionLineHeight = 58;
+var questionFontSize = 40;
+var questionLineHeight = 45;
 var questionColor = "#035c98";
 var questionTop = 25;
 var questionLeft = 5;
@@ -58,7 +58,7 @@ var videoAutoplay = true;
 var videoControls = true;
 
 //answers property
-var answerFontSize = 40;
+var answerFontSize = 37;
 var answerLineHeight = 40;
 var answerColor = "#fff";
 var answerAlign = "center";
@@ -67,7 +67,7 @@ var answerHeight = 14;
 var answerOffsetTop = -15;
 
 var answerListsEnable = true; //enable answer list style
-var answerLists = ["a) ", "b) ", "c) ", "d) ", "e) ", "f) ", "g) ", "h) "]; //answer list style format, maximum 8
+var answerLists = ["", "", "", "", "", "", "", ""]; //answer list style format, maximum 8
 var answerAnimationEnable = true; //enable answer animation
 
 var answerButtonBgEnable = true; //toggle answer button background
@@ -126,8 +126,8 @@ var groupAlign = "right";
 var groupOffsetTop = -15;
 
 //correct or wrong property
-var correctDisplayText = "Correcto!";
-var wrongDisplayText = "Incorrecto!";
+var correctDisplayText = "¡Correcto!";
+var wrongDisplayText = "¡Incorrecto!";
 var quesResultFontSize = 50;
 var quesResultLineHeight = 50;
 var quesResultColor = "#035c98";
@@ -149,7 +149,7 @@ var explanationAlign = "center";
 
 //result
 var scoreMode = "score"; //display result by 'score' or 'timer'
-var scoreDisplayText = "Tu puntaje : [NUMBER]!"; //score result display text
+var scoreDisplayText = "Tu puntaje es: [NUMBER]!"; //score result display text
 var timerDisplayText = "Mejor tiempo : [NUMBER]!"; //timer result display text
 
 //Social share, [SCORE] will replace with game score
@@ -4078,7 +4078,7 @@ function share(action) {
     shareurl = "https://plus.google.com/share?url=" + loc;
   } else if (action == "whatsapp") {
     shareurl =
-      "whatsapp://send?text=" +
+      "https://api.whatsapp.com/send?text=" +
       encodeURIComponent(text) +
       " - " +
       encodeURIComponent(loc);

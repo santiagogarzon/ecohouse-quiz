@@ -66,9 +66,8 @@ textarea {
    ========================================================================== */
 
 @font-face {
-  font-family: "alcubierreregular";
-  src: url("fonts/alcubierre-webfont.woff2") format("woff2"),
-    url("fonts/alcubierre-webfont.woff") format("woff");
+  font-family: "FuturaStdBold";
+  src: url("fonts/Futura-Std-Bold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -90,7 +89,7 @@ html {
   color: #0080ff;
   text-align: center;
   width: 100%;
-  font-family: "alcubierreregular";
+  font-family: "FuturaStdBold";
 }
 
 /*-- Mobile Rotate Instruction -- */
@@ -117,7 +116,7 @@ html {
   color: #fff;
   font-size: 20px;
   line-height: 20px;
-  font-family: "alcubierreregular";
+  font-family: "FuturaStdBold";
 }
 .rotatePortrait {
   animation: spinPortrait 0.5s linear infinite;
@@ -196,7 +195,7 @@ html {
   width: 100%;
 }
 .fontLoader {
-  font-family: "alcubierreregular";
+  font-family: "FuturaStdBold";
   font-size: 25px;
   line-height: 25px;
   color: #fff;
@@ -334,7 +333,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 9%;
+  width: 10%;
 }
 #gameStatus .gameTimer {
   position: absolute;
@@ -347,14 +346,14 @@ html {
   position: absolute;
   top: 18%;
   text-align: center;
-  color: #524e9a;
+  color: #107fc9;
   width: 100%;
 }
 .gameTimerStatus {
   position: absolute;
   top: 18%;
   text-align: center;
-  color: #524e9a;
+  color: #107fc9;
   width: 100%;
   left: 18%;
 }
@@ -469,7 +468,7 @@ html {
   width: 40%;
   margin: auto;
   text-align: center;
-  color: #fff;
+  color: #107fc9;
 }
 .itemWinnerCup {
   width: 50%;
@@ -518,7 +517,7 @@ html {
   position: absolute;
   margin: auto;
   text-align: center;
-  color: #fff;
+  color: #107fc9;
   display: none;
 }
 .scoreContent,
@@ -596,49 +595,49 @@ ul.scoreList li:nth-child(odd) {
 }
 
 .fontStatus {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
   font-size: 30px;
   line-height: 30px;
-  color: #fff;
+  color: #107fc9;
 }
 .fontQuestion {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontAnswer {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontInput {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontCorrectWrong {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontResultScore {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontShare {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontCategory {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontMessage {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontPreload {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontScoreTitle {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontScoreList {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontLabel {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 .fontInput {
-  font-family: "Raleway";
+  font-family: "FuturaStdBold";
 }
 
 /*-- Form Wrapper -- */
@@ -801,7 +800,7 @@ ul.scoreList li:nth-child(odd) {
 
   .confirmContent .message {
     width: 80%;
-    height: 20%;
+    height: 22%;
     left: 10%;
     top: 20%;
     padding: 5% 10%;
@@ -919,11 +918,11 @@ ul.scoreList li:nth-child(odd) {
     margin: 5px;
   }
   #gameStatus .gameTotal {
-    width: 17%;
+    width: 20%;
   }
   #gameStatus .gameTimer {
     left: 35.5%;
-    width: 28%;
+    width: 32%;
   }
 
   #questionResultHolder .nextImg {

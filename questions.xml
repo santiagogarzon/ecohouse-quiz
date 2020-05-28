@@ -10,7 +10,7 @@
 <item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cual es la forma mas ecologica de viajar?.]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cuál es el medio de transporte más eficiente?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="40" left="9" align="center" dropLabelType="text" dropLabelAlign="left" width="36" height="44">assets/energia/Auto.svg</answer>
 				<answer top="37" type="image" left="52" align="center" dropLabelType="text" dropLabelAlign="left" width="33" height="47">assets/energia/Colectivo.svg</answer>
@@ -19,7 +19,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cual es la forma mas ecologica de viajar?.]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cuál es el medio de transporte más eficiente?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" width="46" height="19" top="50" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left">assets/energia/Auto.svg</answer>
 				<answer width="45" height="32" top="48" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="55">assets/energia/Colectivo.svg</answer>
@@ -32,7 +32,7 @@
 <item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[En invierno, ¿bañarse a que hora ahorra energia?]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[En invierno, ¿en qué momento conviene bañarse para ahorrar energía?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="48" left="16" align="center" dropLabelType="text" dropLabelAlign="left" width="24" height="48">assets/energia/ducha1.svg</answer>
 				<answer top="48" type="image" left="53" align="center" dropLabelType="text" dropLabelAlign="left" width="24" height="49">assets/energia/ducha2.svg</answer>
@@ -41,7 +41,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[En invierno, ¿bañarse a que hora ahorra energía?]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[En invierno, ¿en qué momento conviene bañarse para ahorrar energía?]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="image" width="45" height="30" top="48" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="1">assets/energia/ducha2.svg</answer>
 				<answer width="45" height="32" top="48" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="55">assets/energia/ducha1.svg</answer>
@@ -53,7 +53,7 @@
 <item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el...]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="52" left="17" align="center" dropLabelType="text" dropLabelAlign="left" width="21" height="42">assets/energia/Secarropas.svg</answer>
 				<answer top="58" type="image" left="45" align="center" dropLabelType="text" dropLabelAlign="left" width="42" height="29">assets/energia/sol.svg</answer>
@@ -62,9 +62,9 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el:]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="image" width="72" height="17" top="44" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="14">assets/energia/sol.svg</answer>
+				<answer type="image" width="72" height="17" top="47" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="14">assets/energia/sol.svg</answer>
 				<answer width="47" height="33" top="67" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="27">assets/energia/Secarropas.svg</answer>
 			</answers>
 			<inputs/>
@@ -75,7 +75,7 @@
 <item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cual de estas lamparitas consume un 80% menos de energia?.]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cuál de estas lamparitas consume un 80% menos de energia?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="46" left="14" align="center" dropLabelType="text" dropLabelAlign="left" width="25" height="51">assets/energia/Lampara1.svg</answer>
 				<answer top="46" type="image" left="59" align="center" dropLabelType="text" dropLabelAlign="left" width="25" height="50">assets/energia/Lampara2.svg</answer>
@@ -84,7 +84,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cual de estas lamparitas consume un 80% menos de energia?.]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cuál de estas lamparitas consume un 80% menos de energia?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" width="43" height="30" top="51" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="3">assets/energia/Lampara1.svg</answer>
 				<answer width="43" height="31" top="51" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="51">assets/energia/Lampara2.svg</answer>
@@ -96,7 +96,7 @@
 <item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cual es la temperatura más eficiente para el aire acondicionado?.]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cuál es la temperatura más eficiente para el aire acondicionado?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="49" left="6" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/energia/AC15.svg</answer>
 				<answer top="49" type="image" left="57" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/energia/AC24.svg</answer>
@@ -105,10 +105,10 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cual es la temperatura más eficiente para el aire acondicionado?.]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cuál es la temperatura más eficiente para el aire acondicionado?]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="image" width="73" height="17" top="42" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="13">assets/energia/AC15.svg</answer>
-				<answer width="73" height="17" top="64" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="13">assets/energia/AC24.svg</answer>
+				<answer type="image" width="73" height="17" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="13">assets/energia/AC15.svg</answer>
+				<answer width="73" height="17" top="74" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="13">assets/energia/AC24.svg</answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -119,7 +119,7 @@
 		<landscape>
 			<question type="text" top="2" align="center"><![CDATA[]]></question>
 			<answers correctAnswer="" drag="true">
-				<answer top="55" type="text" width="20" height="11" left="5" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbon]]></answer>
+				<answer top="55" type="text" width="20" height="11" left="5" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbón]]></answer>
 				<answer top="55" type="text" width="20" height="11" left="28" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
 				<answer top="55" type="text" width="20" height="11" left="51" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
 				<answer top="55" type="text" width="20" height="11" left="74" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
@@ -138,26 +138,26 @@
 		<portrait>
 			<question type="text" align="center"><![CDATA[]]></question>
 			<answers correctAnswer="" drag="true">
-				<answer top="59" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
-				<answer top="59" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
-				<answer top="59" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
-				<answer top="68" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Geotermia]]></answer>
-				<answer top="68" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
-				<answer top="68" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbón]]></answer>
-				<answer top="77" type="text" width="28" height="8" left="19" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
-				<answer top="77" type="text" width="28" height="8" left="51" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
-				<answer top="88" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+				<answer top="64" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
+				<answer top="64" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
+				<answer top="64" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
+				<answer top="73" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
+				<answer top="73" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
+				<answer top="73" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbón]]></answer>
+				<answer top="82" type="text" width="28" height="8" left="19" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
+				<answer top="82" type="text" width="30" height="8" left="51" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Geotermia]]></answer>
+				<answer top="93" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
 			</answers>
 			<groups>
-				<group correctAnswer="1,4,5,7" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="9" dropMax="4" align="center" type="text" color="#ccc" top="4" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[Renovable]]></group>
-				<group correctAnswer="2,3,6,8" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="35" dropMax="4" align="center" type="text" color="#ccc" top="30" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[No Renovable]]></group>
+				<group correctAnswer="1,4,5,7" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="14" dropMax="4" align="center" type="text" color="#ccc" top="9" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[Renovable]]></group>
+				<group correctAnswer="2,3,6,8" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="40" dropMax="4" align="center" type="text" color="#ccc" top="35" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[No Renovable]]></group>
 			</groups>
 		</portrait>
 		</item>
 	<item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Los electrodomesticos desperdician energia al estar enchufados]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Los electrodomésticos desperdician energía al estar enchufados.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
@@ -166,9 +166,9 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Los electrodomesticos desperdician energia al estar enchufados.]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Los electrodomésticos desperdician energía al estar enchufados.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+				<answer type="text" width="90" height="10" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
 				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
 			</answers>
 			<inputs/>
@@ -179,7 +179,7 @@
 	<item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[El mayor gasto de las lamparitas se produce al encenderlas]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[El mayor gasto de las lamparitas se produce al encenderlas.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
@@ -190,36 +190,13 @@
 		<portrait>
 			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[El mayor gasto de las lamparitas se produce al encenderlas.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
-			</answers>
-			<inputs/>
-		</portrait>
-	</item>
-
-
-	<item>
-		<category>Energía</category>
-		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Cuando la llama de la hornalla sobrepasa la olla se desperdicia energía]]></question>
-			<answers correctAnswer="1" drag="false">
-				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
-				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
-			</answers>
-			<inputs/>
-		</landscape>
-		
-		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Cuando la llama de la hornalla sobrepasa la olla se desperdicia energía.]]></question>
-			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+				<answer type="text" width="90" height="10" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
 				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
 	
-
 	<item>
 		<category>Energía</category>
 		<landscape>
@@ -233,8 +210,8 @@
 		
 		<portrait>
 			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Los electrodomésticos en standby no consumen energía.]]></question>
-			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+			<answers correctAnswer="2" drag="false">
+				<answer type="text" width="90" height="10" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
 				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
 			</answers>
 			<inputs/>
@@ -242,7 +219,7 @@
 	</item>
 	
 	
-	<item>
+	<!-- <item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
 			<question type="text" align="center" top="19" fontSize="30" left="48" width="18" height="55"><![CDATA[Arrastra las tarjetas de la derecha al cuadro donde correspondan:]]></question>
@@ -272,11 +249,11 @@
 			<background top="24" left="5" width="90"/>
 		<explanation type="text" align="center"><![CDATA[]]></explanation></portrait>
 	</item>
-	
+	 -->
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la llama adecuada]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la combustion adecuada.]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="54" left="15" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/1A.svg</answer>
 				<answer top="54" type="image" left="51" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/2A.svg</answer>
@@ -285,7 +262,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Selecciona cual es la llama correcta]]></question>
+			<question type="text" fontSize="25" lineHeight="32" top="9" left="5" width="90" height="30" align="center"><![CDATA[Selecciona la imagen que representa la combustion adecuada.]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" width="70" height="32" top="28" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/1A.svg</answer>
 				<answer width="70" height="32" top="64" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/2A.svg</answer>
@@ -298,7 +275,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿De que forma se identifican internacionalmente las tuberías externas de gas?.]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿De qué color se identifican internacionalmente las tuberías de gas?]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="image" top="48" left="17" align="center" dropLabelType="text" dropLabelAlign="center" width="25" height="51">assets/gas/canilla1.svg</answer>
 				<answer top="48" type="image" left="57" align="center" dropLabelType="text" dropLabelAlign="center" width="25" height="51">assets/gas/canilla2.svg</answer>
@@ -307,7 +284,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿De que forma se identifican internacionalmente las tuberías externas de gas?.]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿De qué color se identifican internacionalmente las tuberías de gas?]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="image" width="40" height="27" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="57">assets/gas/canilla1.svg</answer>
 				<answer width="40" height="27" top="52" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="3">assets/gas/canilla2.svg</answer>
@@ -331,11 +308,11 @@
 		<portrait>
 			<question type="text" fontSize="30" top="8" lineHeight="40" align="center"><![CDATA[ Las manchas alrededor de los conductos pueden indicar:]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer top="65" type="image" width="57" left="21" height="14" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa1.svg</answer>
-				<answer top="84" type="image" width="57" left="21" height="14" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa.svg</answer>
+				<answer top="70" type="image" width="57" left="21" height="14" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa1.svg</answer>
+				<answer top="86" type="image" width="57" left="21" height="14" align="center" dropLabelType="text" dropLabelAlign="left">assets/gas/estufa.svg</answer>
 			</answers>
 			<inputs/>
-			<background width="44" top="29" left="28">assets/gas/estufa2.svg</background>
+			<background width="44" top="35" left="28">assets/gas/estufa2.svg</background>
 		</portrait>
 	</item>
 	
@@ -344,7 +321,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="image" top="48" left="9" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama1.svg</answer>
 				<answer top="48" type="image" left="52" align="center" dropLabelType="text" dropLabelAlign="left" width="34" height="24">assets/gas/llama2.svg</answer>
@@ -353,7 +330,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía]]></question>
+			<question type="text" fontSize="25" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Elegí la forma correcta de utilizar la llama de una hornalla para que no desperdicie energía.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="image" width="78" height="19" top="75" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama1.svg</answer>
 				<answer width="78" height="19" top="50" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="12">assets/gas/llama2.svg</answer>
@@ -404,7 +381,7 @@
 			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[El gas tóxico que se genera en una combustión incompleta se denomina:]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Dióxido de carbono]]></answer>
-				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Monóxido de carbono]]></answer>
+				<answer width="90" height="13" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Monóxido de carbono]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -435,7 +412,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Colgar la ropa cerca de estufas o cocinas]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Colgar la ropa cerca de estufas o cocinas.]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
@@ -444,10 +421,10 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Colgar la ropa cerca de estufas o cocinas]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="14" left="4" width="90" height="30" align="center"><![CDATA[Colgar la ropa cerca de estufas o cocinas.]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+				<answer type="text" width="90" height="10" top="55" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="68" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -457,7 +434,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Las instalaciones las debe a-hacer siempre un gasista matriculado]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Las instalaciones las debe hacer siempre un gasista matriculado.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
@@ -466,10 +443,10 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Las instalaciones las debe a-hacer siempre un gasista matriculado]]></question>
+			<question type="text" fontSize="30" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Las instalaciones las debe hacer siempre un gasista matriculado.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+				<answer type="text" width="90" height="10" top="55" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="68" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -479,7 +456,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[En baños o dormitorios debemos instalar artefactos de tiro balanceado]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[En baños o dormitorios debemos instalar artefactos de tiro balanceado.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
@@ -488,10 +465,10 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[En baños o dormitorios debemos instalar artefactos de tiro balanceado]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[En baños o dormitorios debemos instalar artefactos de tiro balanceado.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+				<answer type="text" width="90" height="10" top="55" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="68" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -501,7 +478,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos utilizar el horno y hornallas para calefaccionar]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos utilizar el horno y hornallas para calefaccionar.]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
@@ -510,10 +487,10 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos utilizar el horno y hornallas para calefaccionar]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos utilizar el horno y hornallas para calefaccionar.]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+				<answer type="text" width="90" height="10" top="55" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="68" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -523,7 +500,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos siempre ventilar las habitaciones]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos siempre ventilar las habitaciones.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
@@ -532,10 +509,10 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos siempre ventilar las habitaciones]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos siempre ventilar las habitaciones.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+				<answer type="text" width="90" height="10" top="55" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="68" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -544,7 +521,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos cerrar las llaves de gas cuando no lo usamos]]></question>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Debemos cerrar las llaves de gas cuando no lo usamos.]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Si!]]></answer>
 				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡No!]]></answer>
@@ -553,36 +530,57 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos cerrar las llaves de gas cuando no lo usamos]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Debemos cerrar las llaves de gas cuando no lo usamos.]]></question>
 			<answers correctAnswer="1" drag="false">
-				<answer type="text" width="90" height="10" top="49" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
-				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
+				<answer type="text" width="90" height="10" top="55" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡Si!]]></answer>
+				<answer width="90" height="10" top="68" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[¡No!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
 	</item>
 
+
+	<item>
+		<category>Gas y Monóxido de Carbono</category>
+		<landscape>
+			<question type="text" align="center" top="19" left="5" width="90" height="30"><![CDATA[Cuando la llama de la hornalla sobrepasa la olla se desperdicia energía.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" top="55" left="18" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Verdadero]]></answer>
+				<answer top="55" type="text" left="50" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Falso]]></answer>
+			</answers>
+			<inputs/>
+		</landscape>
+		
+		<portrait>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="4" width="90" height="30" align="center"><![CDATA[Cuando la llama de la hornalla sobrepasa la olla se desperdicia energía.]]></question>
+			<answers correctAnswer="1" drag="false">
+				<answer type="text" width="90" height="10" top="52" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Verdadero]]></answer>
+				<answer width="90" height="10" top="65" type="text" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="6"><![CDATA[Falso]]></answer>
+			</answers>
+			<inputs/>
+		</portrait>
+	</item>
 
 	<item>
 		<category>Agua</category>
 		<landscape>
-			<question type="text" top="8"><![CDATA[Arrastra los botones para armar la frase correcta. Del 100% del agua...es...]]></question>
+			<question type="text" fontSize="30" top="8"><![CDATA[Arrastra los botones para armar la frase correcta. El agua total del planeta se divide en...]]></question>
 			<answers correctAnswer="" drag="true">
-				<answer top="29" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="28" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="97,5%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="29" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[salada]]></answer>
-				<answer top="43" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="42" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="2,5%" dropLabelTop="43" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[dulce-congelada]]></answer>
-				<answer top="57" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="56" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="0,3%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="57" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[consumible]]></answer>
+				<answer top="29" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="28" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="97,5%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="29" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Salada]]></answer>
+				<answer top="43" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="42" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="2,5%" dropLabelTop="43" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Dulce congelada]]></answer>
+				<answer top="57" type="text" width="28" height="11" left="65" dropLeft="33" dropTop="56" dropWidth="29" dropHeight="11" dropOffLeft=".5" dropOffTop="1" dropLabelText="0,3%" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelTop="57" dropLabelWidth="30" dropLabelHeight="10" align="center" dropLabelType="text"><![CDATA[Consumible]]></answer>
 				<answer top="84" type="text" submit="true" left="32" width="35"><![CDATA[¡Listo!]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" top="6" fontSize="25" lineHeight="30" align="center" left="4" width="90" height="30"><![CDATA[Arrastra los botones para armar la frase correcta. Del 100% del agua...es...]]></question>
+			<question type="text" top="8" fontSize="25" lineHeight="30" align="center" left="4" width="90" height="30"><![CDATA[Arrastra los botones para armar la frase correcta.  El agua total del planeta se divide en...]]></question>
 			<answers correctAnswer="" drag="true">
-				<answer top="65" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="23" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="97,5%" dropLabelTop="25" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8"><![CDATA[es salada]]></answer>
-				<answer top="65" type="text" left="53" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="33" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="2,5%" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelLeft="8" dropLabelTop="35" dropLabelWidth="30" dropLabelHeight="10"><![CDATA[es dulce pero congelada]]></answer>
-				<answer top="75" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="43" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="0,3%" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8" dropLabelTop="45" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc"><![CDATA[es consumible]]></answer>
-				<answer top="85" type="text" submit="true" left="32" width="35" height="8" fontSize="20" lineHeight="20"><![CDATA[¡Listo!]]></answer>
+				<answer top="67" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="30" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="97,5%" dropLabelTop="32" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8"><![CDATA[Salada]]></answer>
+				<answer top="67" type="text" left="53" width="40" height="9" fontSize="20" lineHeight="20" dropLeft="43" dropTop="40" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="2,5%" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelAlign="right" dropLabelColor="#ccc" dropLabelLeft="8" dropLabelTop="42" dropLabelWidth="30" dropLabelHeight="10"><![CDATA[Dulce congelada]]></answer>
+				<answer top="77" type="text" left="9" width="40" height="8" fontSize="20" lineHeight="20" dropLeft="43" dropTop="50" dropWidth="43" dropHeight="8" dropOffLeft="1.7" dropOffTop="1" align="center" dropLabelType="text" dropLabelText="0,3%" dropLabelFontSize="25" dropLabelLineHeight="25" dropLabelLeft="8" dropLabelTop="52" dropLabelWidth="30" dropLabelHeight="10" dropLabelAlign="right" dropLabelColor="#ccc"><![CDATA[Consumible]]></answer>
+				<answer top="87" type="text" submit="true" left="32" width="35" height="8" fontSize="20" lineHeight="20"><![CDATA[¡Listo!]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -647,10 +645,10 @@
 		<portrait>
 			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos baldes se llenan en un día, con una gota por segundo?]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1 balde]]></answer>
-				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 baldes]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[3 baldes]]></answer>
-				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[4 baldes]]></answer>
+				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1 balde]]></answer>
+				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 baldes]]></answer>
+				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[3 baldes]]></answer>
+				<answer width="90" height="10" top="86" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[4 baldes]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -672,10 +670,10 @@
 		<portrait>
 			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos litros de agua consumimos al lavarnos los dientes con la canilla abierta?]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[10 litros]]></answer>
-				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[20 litros]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[30 litros]]></answer>
-				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[40 litros]]></answer>
+				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[10 litros]]></answer>
+				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[20 litros]]></answer>
+				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[30 litros]]></answer>
+				<answer width="90" height="10" top="86" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[40 litros]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -685,7 +683,7 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<question type="text"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[300 cm3]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[370 cm3]]></answer>
@@ -695,11 +693,11 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[300 cm3]]></answer>
-				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[370 cm3]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[270 cm3]]></answer>
+				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[300 cm3]]></answer>
+				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[370 cm3]]></answer>
+				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[270 cm3]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -709,7 +707,7 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuanto papel se puede producir con un 1 árbol?.]]></question>
+			<question type="text"><![CDATA[¿Cuanto papel se puede producir con un 1 árbol?]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[5 resmas]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[16 resmas]]></answer>
@@ -720,7 +718,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanto papel se puede producir con un 1 árbol?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 resmas]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[16 resmas]]></answer>
@@ -734,7 +732,7 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[al reciclar una tonelada ¿Cuantos arboles evito ser talados?.]]></question>
+			<question type="text"><![CDATA[Al reciclar una tonelada ¿Cuantos arboles evito ser talados?]]></question>
 			<answers correctAnswer="3">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[2 árboles]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[5 árboles]]></answer>
@@ -745,7 +743,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?.]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[al reciclar una tonelada, ¿Cuantos arboles evito ser talados?]]></question>
 			<answers correctAnswer="3" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 árboles]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 árboles]]></answer>
