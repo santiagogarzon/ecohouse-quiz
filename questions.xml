@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><questions>
 	<category>
-		<thumb name="Energía">assets/item_thumb_0.svg</thumb>
-		<thumb name="Gas y Monóxido de Carbono">assets/item_thumb_1.svg</thumb>
-		<thumb name="Agua">assets/item_thumb_2.svg</thumb>
-		<thumb name="Papel">assets/item_thumb_5.svg</thumb>
+		<thumb name="Energía">assets/portadaEnergia.svg</thumb>
+		<thumb name="Gas y Monóxido de Carbono">assets/portadaGas.svg</thumb>
+		<thumb name="Agua">assets/portadaAgua.svg</thumb>
+		<thumb name="Papel">assets/portadaPapel.svg</thumb>
 	</category>
 
 
