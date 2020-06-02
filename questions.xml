@@ -632,7 +632,7 @@
 	<item>
 		<category>Agua</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuántos baldes se llevan en un día, con una gota de agua por segundo?]]></question>
+			<question type="text"><![CDATA[¿Cuántos baldes se llenan en un día, con una gota de agua por segundo?]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[1 balde]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[2 baldes]]></answer>
@@ -643,7 +643,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos baldes se llevan en un día, con una gota de agua por segundo?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos baldes se llenan en un día, con una gota de agua por segundo?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1 balde]]></answer>
 				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 baldes]]></answer>
