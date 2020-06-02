@@ -734,7 +734,7 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[Al reciclar una tonelada de papel, evito la tala de ...]]></question>
+			<question type="text"><![CDATA[Al reciclar una tonelada de papel, evito la tala de...]]></question>
 			<answers correctAnswer="3">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[2 árboles]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[5 árboles]]></answer>
@@ -745,7 +745,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[Al reciclar una tonelada de papel, evito la tala de ...]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[Al reciclar una tonelada de papel, evito la tala de...]]></question>
 			<answers correctAnswer="3" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 árboles]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 árboles]]></answer>

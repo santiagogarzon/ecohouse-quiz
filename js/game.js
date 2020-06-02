@@ -149,7 +149,7 @@ var explanationAlign = "center";
 
 //result
 var scoreMode = "score"; //display result by 'score' or 'timer'
-var scoreDisplayText = "Tu puntaje es: [NUMBER]!"; //score result display text
+var scoreDisplayText = "¡Tu puntaje es: [NUMBER]!"; //score result display text
 var timerDisplayText = "Mejor tiempo : [NUMBER]!"; //timer result display text
 
 //Social share, [SCORE] will replace with game score
