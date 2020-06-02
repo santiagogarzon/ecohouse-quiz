@@ -62,7 +62,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el:]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[Ahorramos el 100% de energía cuando secamos la ropa utilizando el...]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="image" width="72" height="17" top="47" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="14">assets/energia/sol.svg</answer>
 				<answer width="47" height="33" top="67" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="27">assets/energia/Secarropas.svg</answer>
@@ -75,7 +75,7 @@
 <item>
 		<category>Energía</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cuál de estas lamparitas consume un 80% menos de energia?]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[¿Cuál de estas lamparitas consume un 80% menos de energía?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="46" left="14" align="center" dropLabelType="text" dropLabelAlign="left" width="25" height="51">assets/energia/Lampara1.svg</answer>
 				<answer top="46" type="image" left="59" align="center" dropLabelType="text" dropLabelAlign="left" width="25" height="50">assets/energia/Lampara2.svg</answer>
@@ -84,7 +84,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cuál de estas lamparitas consume un 80% menos de energia?]]></question>
+			<question type="text" fontSize="35" lineHeight="45" top="9" left="5" width="90" height="30" align="center"><![CDATA[¿Cuál de estas lamparitas consume un 80% menos de energía?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" width="43" height="30" top="51" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="3">assets/energia/Lampara1.svg</answer>
 				<answer width="43" height="31" top="51" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="left" left="51">assets/energia/Lampara2.svg</answer>
@@ -127,7 +127,7 @@
 				<answer top="68" type="text" width="20" height="11" left="28" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
 				<answer top="68" type="text" width="20" height="11" left="51" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
 				<answer top="68" type="text" width="20" height="11" left="74" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
-				<answer top="84" type="text" submit="true" left="32" width="35" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+				<answer top="84" type="text" submit="true" left="32" width="35" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Listo!]]></answer>
 			</answers>
 			<groups>
 				<group correctAnswer="5,6,7,8" dropWidth="43" dropHeight="30" dropLeft="5" dropTop="20" dropMax="4" align="center" type="text" color="#ccc" top="12" left="5" width="43" height="10"><![CDATA[Renovables]]></group>
@@ -141,12 +141,12 @@
 				<answer top="64" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Solar]]></answer>
 				<answer top="64" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Nuclear]]></answer>
 				<answer top="64" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Petróleo]]></answer>
-				<answer top="73" type="text" width="28" height="8" left="5" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
+				<answer top="73" type="text" width="28" height="8" left="5" fontSize="14" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Hidroeléctrica]]></answer>
 				<answer top="73" type="text" width="28" height="8" left="36" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Eólica]]></answer>
 				<answer top="73" type="text" width="28" height="8" left="67" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Carbón]]></answer>
 				<answer top="82" type="text" width="28" height="8" left="19" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Biomasa]]></answer>
-				<answer top="82" type="text" width="30" height="8" left="51" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Geotermia]]></answer>
-				<answer top="93" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Listo!]]></answer>
+				<answer top="82" type="text" width="30" height="8" left="51" fontSize="20" lineHeight="20" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[Gas]]></answer>
+				<answer top="93" type="text" submit="true" left="32" width="35" fontSize="20" lineHeight="20" height="8" align="center" dropLabelType="text" dropLabelAlign="center"><![CDATA[¡Listo!]]></answer>
 			</answers>
 			<groups>
 				<group correctAnswer="1,4,5,7" dropWidth="90" dropHeight="19" dropLeft="5" dropTop="14" dropMax="4" align="center" type="text" color="#ccc" top="9" left="5" width="90" height="5" fontSize="30" lineHeight="30"><![CDATA[Renovable]]></group>
@@ -253,7 +253,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la combustion adecuada.]]></question>
+			<question type="text" align="center" top="15" left="6" width="90" height="30"><![CDATA[Selecciona la imagen que representa la combustión adecuada.]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" top="54" left="15" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/1A.svg</answer>
 				<answer top="54" type="image" left="51" align="center" dropLabelType="text" dropLabelAlign="center" width="30" height="40">assets/asociaciones/2A.svg</answer>
@@ -262,7 +262,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="25" lineHeight="32" top="9" left="5" width="90" height="30" align="center"><![CDATA[Selecciona la imagen que representa la combustion adecuada.]]></question>
+			<question type="text" fontSize="25" lineHeight="32" top="9" left="5" width="90" height="30" align="center"><![CDATA[Selecciona la imagen que representa la combustión adecuada.]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="image" width="70" height="32" top="28" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/1A.svg</answer>
 				<answer width="70" height="32" top="64" type="image" fontSize="25" lineHeight="25" offsetTop="-15" align="center" dropLabelType="text" dropLabelAlign="center" left="16">assets/asociaciones/2A.svg</answer>
@@ -372,7 +372,7 @@
 			<question type="text"><![CDATA[El gas tóxico que se genera en una combustión incompleta se denomina:]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[Dióxido de carbono]]></answer>
-				<answer top="48" type="text" left="51" width="35"><![CDATA[Monóxido de carbono]]></answer>
+				<answer top="48" type="text" left="51" width="35" height="17"><![CDATA[Monóxido de carbono]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
@@ -391,7 +391,7 @@
 	<item>
 		<category>Gas y Monóxido de Carbono</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Que debemos hacer primero?]]></question>
+			<question type="text"><![CDATA[¿Qué debemos hacer primero?]]></question>
 			<answers correctAnswer="1">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[Prender el fósforo]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[Abrir la llave de gas]]></answer>
@@ -400,7 +400,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[¿Que debemos hacer primero?]]></question>
+			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[¿Qué debemos hacer primero?]]></question>
 			<answers correctAnswer="1" drag="false">
 				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Prender el fósforo]]></answer>
 				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Abrir la llave de gas]]></answer>
@@ -632,7 +632,7 @@
 	<item>
 		<category>Agua</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuántos baldes se llenan en un día, con una gota por segundo?]]></question>
+			<question type="text"><![CDATA[¿Cuántos baldes se llevan en un día, con una gota de agua por segundo?]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[1 balde]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[2 baldes]]></answer>
@@ -643,7 +643,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos baldes se llenan en un día, con una gota por segundo?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántos baldes se llevan en un día, con una gota de agua por segundo?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1 balde]]></answer>
 				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 baldes]]></answer>
@@ -683,21 +683,23 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?]]></question>
+			<question type="text"><![CDATA[¿Cuánta agua limpia requiere una hoja de papel para ser producida?]]></question>
 			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14"><![CDATA[300 cm3]]></answer>
+				<answer type="text" top="48" width="35" left="14"><![CDATA[270 cm3]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[370 cm3]]></answer>
-				<answer top="65" type="text" left="14" width="35"><![CDATA[270 cm3]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[470 cm3]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[1000 cm3]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanta agua limpia requiere una hoja de papel para ser producida?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuánta agua limpia requiere una hoja de papel para ser producida?]]></question>
 			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[300 cm3]]></answer>
+				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[270 cm3]]></answer>
 				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[370 cm3]]></answer>
-				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[270 cm3]]></answer>
+				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[470 cm3]]></answer>
+				<answer width="90" height="10" top="86" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1000 cm3]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -707,7 +709,7 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuanto papel se puede producir con un 1 árbol?]]></question>
+			<question type="text"><![CDATA[¿Cuánto papel se puede producir con un 1 árbol?]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[5 resmas]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[16 resmas]]></answer>
@@ -718,7 +720,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuanto papel se puede producir con un 1 árbol?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuánto papel se puede producir con un 1 árbol?]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 resmas]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[16 resmas]]></answer>
@@ -732,7 +734,7 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[Al reciclar una tonelada ¿Cuantos arboles evito ser talados?]]></question>
+			<question type="text"><![CDATA[Al reciclar una tonelada de papel, evito la tala de ...]]></question>
 			<answers correctAnswer="3">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[2 árboles]]></answer>
 				<answer top="48" type="text" left="51" width="35"><![CDATA[5 árboles]]></answer>
@@ -743,7 +745,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[al reciclar una tonelada, ¿Cuantos arboles evito ser talados?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[Al reciclar una tonelada de papel, evito la tala de ...]]></question>
 			<answers correctAnswer="3" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 árboles]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 árboles]]></answer>

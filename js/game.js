@@ -26,10 +26,10 @@ var categoryPage = true; //show/hide category select page
 var categoryAllOption = false; //add ALL category select option
 var categoryAllText = "Todas"; //text for all category select option
 
-var questionTotalDisplay = "[NUMBER]/[TOTAL]:"; //current question and total question display
+var questionTotalDisplay = "[NUMBER]/[TOTAL]"; //current question and total question display
 var totalQuestions = 0; //set 0 for all questions, set more than 0 to limit total questions
 
-var enableRandomQuestion = false; //enable question in random sequence
+var enableRandomQuestion = true; //enable question in random sequence
 var enableRandomAnswer = false; //enable answer in random sequence
 var enableRevealAnswer = true; //enable reveal answer
 var enableExplanation = true; //enable show explanation
@@ -354,6 +354,17 @@ function goPage(page) {
       playSound("soundResult");
       stopGame();
       if (scoreMode == "score") {
+        console.log(gameData);
+        if (
+          (gameData.categoryNum === 0 && playerData.score < 3) ||
+          (gameData.categoryNum === 1 && playerData.score < 5) ||
+          (gameData.categoryNum === 2 && playerData.score < 8) ||
+          (gameData.categoryNum === 3 && playerData.score < 2)
+        ) {
+          toggleResult(false);
+        } else {
+          toggleResult(true);
+        }
         $("#resultScore").html(
           scoreDisplayText.replace("[NUMBER]", playerData.score)
         );
