@@ -372,7 +372,7 @@
 			<question type="text"><![CDATA[El gas tóxico que se genera en una combustión incompleta se denomina:]]></question>
 			<answers correctAnswer="2">
 				<answer type="text" top="48" width="35" left="14"><![CDATA[Dióxido de carbono]]></answer>
-				<answer top="48" type="text" left="51" width="35" height="17"><![CDATA[Monóxido de carbono]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Monóxido de carbono]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
@@ -381,7 +381,7 @@
 			<question type="text" fontSize="35" top="15" lineHeight="45" align="center"><![CDATA[El gas tóxico que se genera en una combustión incompleta se denomina:]]></question>
 			<answers correctAnswer="2" drag="false">
 				<answer type="text" width="90" height="10" top="60" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Dióxido de carbono]]></answer>
-				<answer width="90" height="13" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Monóxido de carbono]]></answer>
+				<answer width="90" height="10" top="72" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Monóxido de carbono]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
