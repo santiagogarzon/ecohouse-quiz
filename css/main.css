@@ -66,8 +66,8 @@ textarea {
    ========================================================================== */
 
 @font-face {
-  font-family: "FuturaStdBold";
-  src: url("fonts/Futura-Std-Bold.otf") format("opentype");
+  font-family: "FsEmericBold";
+  src: url("fonts/FSEmeric-Bold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -89,7 +89,7 @@ html {
   color: #0080ff;
   text-align: center;
   width: 100%;
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 
 /*-- Mobile Rotate Instruction -- */
@@ -116,7 +116,7 @@ html {
   color: #fff;
   font-size: 20px;
   line-height: 20px;
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .rotatePortrait {
   animation: spinPortrait 0.5s linear infinite;
@@ -195,7 +195,7 @@ html {
   width: 100%;
 }
 .fontLoader {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
   font-size: 25px;
   line-height: 25px;
   color: #fff;
@@ -595,49 +595,49 @@ ul.scoreList li:nth-child(odd) {
 }
 
 .fontStatus {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
   font-size: 30px;
   line-height: 30px;
   color: #107fc9;
 }
 .fontQuestion {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontAnswer {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontInput {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontCorrectWrong {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontResultScore {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontShare {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontCategory {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontMessage {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontPreload {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontScoreTitle {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontScoreList {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontLabel {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 .fontInput {
-  font-family: "FuturaStdBold";
+  font-family: "FsEmericBold";
 }
 
 /*-- Form Wrapper -- */
