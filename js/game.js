@@ -154,9 +154,9 @@ var timerDisplayText = "Mejor tiempo : [NUMBER]!"; //timer result display text
 
 //Social share, [SCORE] will replace with game score
 var shareEnable = true; //toggle share
-var shareTitle = "Mi mejor puntaje en EcoHouse quiz game es [SCORE]pts"; //social share score title
+var shareTitle = "Mi mejor puntaje en Naturgy quiz game es [SCORE]pts"; //social share score title
 var shareMessage =
-  "[SCORE] es mi nuevo puntaje mas alto en EcoHouse Quiz Game! Probalo ahora!"; //social share score message
+  "[SCORE] es mi nuevo puntaje mas alto en Naturgy Quiz Game! Probalo ahora!"; //social share score message
 
 /*!
  *
