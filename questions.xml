@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><questions>
 	<category>
 		<thumb name="Energía">assets/portadaEnergia.svg</thumb>
-		<thumb name="Gas y Monóxido de Carbono">assets/boton-01.svg</thumb>
+		<thumb name="Gas y Monóxido de Carbono">assets/portadaGas.png</thumb>
 		<thumb name="Agua">assets/portadaAgua.svg</thumb>
 		<thumb name="Papel">assets/portadaPapel.svg</thumb>
 	</category>
