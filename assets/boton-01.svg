@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-187 285.9 220 270" style="enable-background:new -187 285.9 220 270;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#083A4F;}
+	.st1{fill:#005D98;}
+	.st2{clip-path:url(#SVGID_2_);fill:#15587D;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:url(#img1);}
+</style>
+<defs>
+  <pattern id="img1" width="100%" height="100%">
+    <image xlink:href="https://santiagogarzon.github.io/ecohouse-quiz/assets/gas.png" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" />
+  </pattern>
+</defs>
+<g>
+	<path class="st0" d="M33,545.9c0,5.5-4.5,10-10,10h-200c-5.5,0-10-4.5-10-10v-240c0-5.5,4.5-10,10-10H23c5.5,0,10,4.5,10,10V545.9z
+		"/>
+	<path class="st1" d="M33,535.9c0,5.5-4.5,10-10,10h-200c-5.5,0-10-4.5-10-10v-240c0-5.5,4.5-10,10-10H23c5.5,0,10,4.5,10,10V535.9z
+		"/>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M33,535.9c0,5.5-4.5,10-10,10h-200c-5.5,0-10-4.5-10-10v-240c0-5.5,4.5-10,10-10H23c5.5,0,10,4.5,10,10
+					V535.9z"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<polygon class="st2" points="32,288.3 -184,545.9 38.8,545.9 			"/>
+		</g>
+	</g>
+</g>
+<path class="st3" d="M17.5,513.9c0,8.3-6.7,15-15,15h-159c-8.3,0-15-6.7-15-15v-196c0-8.3,6.7-15,15-15h159c8.3,0,15,6.7,15,15
+	L17.5,513.9L17.5,513.9z"/>
+</svg>
