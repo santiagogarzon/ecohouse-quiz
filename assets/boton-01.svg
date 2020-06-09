@@ -10,7 +10,7 @@
 </style>
 <defs>
   <pattern id="img1" width="100%" height="100%">
-    <image xlink:href="https://santiagogarzon.github.io/ecohouse-quiz/assets/gas.png" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" />
+    <image xlink:href="./gas.png" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" />
   </pattern>
 </defs>
 <g>
