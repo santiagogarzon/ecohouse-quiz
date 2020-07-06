@@ -683,23 +683,23 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuánta agua limpia requiere una hoja de papel para ser producida?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14"><![CDATA[270 cm3]]></answer>
-				<answer top="48" type="text" left="51" width="35"><![CDATA[370 cm3]]></answer>
-				<answer top="65" type="text" left="14" width="35"><![CDATA[470 cm3]]></answer>
-				<answer top="65" type="text" left="51" width="35"><![CDATA[1000 cm3]]></answer>
+			<question type="text"><![CDATA[Para hacer un uso responsable del papel es ideal:]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[Reducir su uso]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[Reutilizar cuando sea posible]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[Reciclar]]></answer>
+				<answer top="65" type="text" left="51" width="35"><![CDATA[Todas las opciones]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuánta agua limpia requiere una hoja de papel para ser producida?]]></question>
-			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[270 cm3]]></answer>
-				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[370 cm3]]></answer>
-				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[470 cm3]]></answer>
-				<answer width="90" height="10" top="86" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[1000 cm3]]></answer>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[Para hacer un uso responsable del papel es ideal:]]></question>
+			<answers correctAnswer="4" drag="false">
+				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Reducir su uso]]></answer>
+				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Reutilizar cuando sea posible]]></answer>
+				<answer width="90" height="10" top="74" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Reciclar]]></answer>
+				<answer width="90" height="10" top="86" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Todas las opciones]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -709,23 +709,23 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[¿Cuánto papel se puede producir con un 1 árbol?]]></question>
-			<answers correctAnswer="2">
-				<answer type="text" top="48" width="35" left="14"><![CDATA[5 resmas]]></answer>
-				<answer top="48" type="text" left="51" width="35"><![CDATA[16 resmas]]></answer>
-				<answer top="65" type="text" left="14" width="35"><![CDATA[50 resmas]]></answer>	
-				<answer top="65" type="text" left="51" width="35"><![CDATA[80 resmas]]></answer>
+			<question type="text"><![CDATA[¿Qué porcentaje de fibra reciclada tienen actualmente las cajas de cartón corrugado?]]></question>
+			<answers correctAnswer="4">
+				<answer type="text" top="48" width="35" left="14"><![CDATA[25%]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[100%]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[65%]]></answer>	
+				<answer top="65" type="text" left="51" width="35"><![CDATA[75%]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuánto papel se puede producir con un 1 árbol?]]></question>
-			<answers correctAnswer="2" drag="false">
-				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 resmas]]></answer>
-				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[16 resmas]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[50 resmas]]></answer>
-				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[80 resmas]]></answer>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Qué porcentaje de fibra reciclada tienen actualmente las cajas de cartón corrugado?]]></question>
+			<answers correctAnswer="4" drag="false">
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[25%]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[100%]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[65%]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[75%]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
@@ -734,23 +734,23 @@
 	<item>
 		<category>Papel</category>
 		<landscape>
-			<question type="text"><![CDATA[Al reciclar una tonelada de papel, evito la tala de...]]></question>
+			<question type="text"><![CDATA[¿Cuántas toneladas de productos de papel se consumen cada año en Argentina?]]></question>
 			<answers correctAnswer="3">
-				<answer type="text" top="48" width="35" left="14"><![CDATA[2 árboles]]></answer>
-				<answer top="48" type="text" left="51" width="35"><![CDATA[5 árboles]]></answer>
-				<answer top="65" type="text" left="14" width="35"><![CDATA[12 árboles]]></answer>	
-				<answer top="65" type="text" left="51" width="35"><![CDATA[20 árboles]]></answer>
+				<answer type="text" top="48" width="35" left="14"><![CDATA[200.000]]></answer>
+				<answer top="48" type="text" left="51" width="35"><![CDATA[230.000]]></answer>
+				<answer top="65" type="text" left="14" width="35"><![CDATA[2.300.000]]></answer>	
+				<answer top="65" type="text" left="51" width="35"><![CDATA[2.000.000]]></answer>
 			</answers>
 			<inputs/>
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[Al reciclar una tonelada de papel, evito la tala de...]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántas toneladas de productos de papel se consumen cada año en Argentina?]]></question>
 			<answers correctAnswer="3" drag="false">
-				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2 árboles]]></answer>
-				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[5 árboles]]></answer>
-				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[12 árboles]]></answer>
-				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[20 árboles]]></answer>
+				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[200.000]]></answer>
+				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[230.000]]></answer>
+				<answer width="90" height="10" top="69" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2.300.000]]></answer>
+				<answer width="90" height="10" top="81" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[2.000.000]]></answer>
 			</answers>
 			<inputs/>
 		</portrait>
