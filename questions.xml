@@ -694,7 +694,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[Para hacer un uso responsable del papel es ideal:]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="40" align="center" left="5" width="90" height="30"><![CDATA[Para hacer un uso responsable del papel es ideal:]]></question>
 			<answers correctAnswer="4" drag="false">
 				<answer type="text" width="90" height="10" top="50" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Reducir su uso]]></answer>
 				<answer width="90" height="10" top="62" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[Reutilizar cuando sea posible]]></answer>
@@ -720,7 +720,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Qué porcentaje de fibra reciclada tienen actualmente las cajas de cartón corrugado?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="40" align="center" left="5" width="90" height="30"><![CDATA[¿Qué porcentaje de fibra reciclada tienen actualmente las cajas de cartón corrugado?]]></question>
 			<answers correctAnswer="4" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[25%]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[100%]]></answer>
@@ -745,7 +745,7 @@
 		</landscape>
 		
 		<portrait>
-			<question type="text" fontSize="35" top="10" lineHeight="45" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántas toneladas de productos de papel se consumen cada año en Argentina?]]></question>
+			<question type="text" fontSize="35" top="10" lineHeight="40" align="center" left="5" width="90" height="30"><![CDATA[¿Cuántas toneladas de productos de papel se consumen cada año en Argentina?]]></question>
 			<answers correctAnswer="3" drag="false">
 				<answer type="text" width="90" height="10" top="45" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[200.000]]></answer>
 				<answer width="90" height="10" top="57" type="text" fontSize="30" lineHeight="30" offsetTop="-10" align="center" dropLabelType="text" dropLabelAlign="left"><![CDATA[230.000]]></answer>
